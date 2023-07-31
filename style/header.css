@@ -1,0 +1,38 @@
+.head__contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.head__icons img{
+    padding-left: 45px;
+}
+
+.head__navigation {
+    list-style: none;
+    margin: 0 6px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #693621;
+    box-sizing: border-box;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+.head__logo:hover {
+    opacity: 1;
+}
+

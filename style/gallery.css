@@ -1,0 +1,20 @@
+/* Стили для gallery__sliders */
+.btn__prev_slide, .btn__next_slide {
+    width: 25px;
+    height: 35px;
+    padding: 15px;
+    border: none;
+    background-image: url('ic_back.png');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-color: #693621;
+    border-radius: 3px;
+}
+
+.btn__next_slide {
+    transform: scale(-1, 1);
+}
+
+
+
+
