@@ -1,20 +1,74 @@
 /* Стили для gallery__sliders */
+/* Стили для стрелок */
 .btn__prev_slide, .btn__next_slide {
-    width: 25px;
-    height: 35px;
-    padding: 15px;
+    width: 35px;
+    height: 30px;
+    padding: 25px;
+    margin: 15px;
     border: none;
     background-image: url('ic_back.png');
     background-size: cover;
     background-position: 50% 50%;
     background-color: #693621;
-    border-radius: 3px;
+    border-radius: 50px;
 }
 
 .btn__next_slide {
     transform: scale(-1, 1);
 }
 
+.btn__prev_slide:hover, .btn__next_slide:hover {
+    color: #aa8878;
+}
 
+/* Стили слайдера */
+.btn__prev_slide, .btn__next_slide, .slider__wrapper, .dot {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.slider__wrapper {
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    width: 960px;
+    overflow: hidden;
+}
+
+.sliders {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.slider__line {
+    display: flex;
+}
+
+.slide {
+    width: 960px;
+    position: relative;
+    overflow: hidden;
+} 
+
+/* Подключить шрифт */
+.gallery__title1 {
+    position: absolute;
+    color: #FFEFE0;
+    top: 50px;
+    right: 56px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.gallery__text1 {
+    position: absolute;
+    bottom: 60px;
+    left: 33%;
+    color: #FFF;
+    font-size: 28px;
+    text-decoration-line: underline;
+}
 
 
