@@ -48,6 +48,7 @@
 
 .slide {
     width: 960px;
+    height: 400px;
     position: relative;
     overflow: hidden;
 } 
@@ -60,15 +61,33 @@
     right: 56px;
     font-size: 50px;
     font-weight: 700;
+    font-family: 'SF-pro';
 }
 
 .gallery__text1 {
     position: absolute;
-    bottom: 60px;
+    bottom: 30px;
     left: 33%;
     color: #FFF;
     font-size: 28px;
     text-decoration-line: underline;
+    font-family: 'SF-pro';
 }
 
+.dot {
+    margin-right: 20px;
+    width: 15px;
+    height: 15px;
+    background-color: #aa8878;
+    border-radius: 50%;
+}
 
+.sliders__dots {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 68px;
+}
+
+.active {
+    background-color: #693621;
+}
