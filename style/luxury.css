@@ -1,8 +1,7 @@
 .luxury {
     box-sizing: border-box;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    height: 420px;
     justify-content: space-between;
 }
 
@@ -10,7 +9,6 @@
 .luxury__img {
     display: flex;
     flex-direction: column;
-    height: 48%;
 }
 
 .luxury__dresses_img {
