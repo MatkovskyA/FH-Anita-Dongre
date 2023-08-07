@@ -1,0 +1,37 @@
+.footwear__wrapper {
+    padding-top: 40px;
+    background-color: #e7e5e5;
+}
+
+.footwear__inner {
+    display: inline-flex;
+    position: relative;
+
+}
+
+.footwear__img1 {
+    padding-right: 181px;
+}
+
+.footwear__dots {
+    position: relative;
+    left: -90px;
+    top: 257px;
+}
+
+.dots3 {
+    width: 5px;
+    height: 65px;
+    background-color: #693621;
+    cursor: pointer;
+}
+
+.dots3:hover {
+    background-color: #69362180;
+}
+
+.footwear__button {
+    position: absolute;
+    left: 462px;
+    bottom: 60px;
+}

@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 .menswear__decor {
@@ -36,7 +37,6 @@
     padding-bottom: 92px;
 }
 
-
 .menswear__dots {
     position: absolute;
     text-align: right;
@@ -46,4 +46,5 @@
 
 .dot2 {
     margin-top: 20px;
+    cursor: pointer;
 }

@@ -39,6 +39,7 @@
     background-image: url(../resourses/shopByCategory/prev.png);
     width: 96px;
     height: 22px;
+    cursor: pointer;
 }
 
 .category__btn_next {
@@ -46,4 +47,5 @@
     width: 96px;
     height: 22px;
     background-color: #fff;
+    cursor: pointer;
 }
