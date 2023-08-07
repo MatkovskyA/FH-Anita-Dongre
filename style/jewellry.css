@@ -1,0 +1,24 @@
+.jewellry__wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.jew__border {
+    position: absolute;
+    width: 230.5px;
+    height: 430.5px;
+    border-left: 5px solid #693621;
+    border-top: 5px solid #693621;
+    top: 80px;
+    left: 80px;
+}
+
+.jewellry__btn {
+    background-image: url(../resourses/Jewellry/Group.png);
+    position: absolute;
+    width: 75px;
+    height: 93.5px;
+    top: 90px;
+    right: 59px;
+    cursor: pointer;
+}
