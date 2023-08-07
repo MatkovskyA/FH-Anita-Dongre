@@ -1,6 +1,7 @@
 /* Стили для gallery__sliders */
 /* Стили для стрелок */
-.btn__prev_slide, .btn__next_slide {
+.btn__prev_slide,
+.btn__next_slide {
     width: 35px;
     height: 30px;
     padding: 25px;
@@ -17,12 +18,16 @@
     transform: scale(-1, 1);
 }
 
-.btn__prev_slide:hover, .btn__next_slide:hover {
+.btn__prev_slide:hover,
+.btn__next_slide:hover {
     color: #aa8878;
 }
 
 /* Стили слайдера */
-.btn__prev_slide, .btn__next_slide, .slider__wrapper, .dot {
+.btn__prev_slide,
+.btn__next_slide,
+.slider__wrapper,
+.dot {
     display: inline-block;
     vertical-align: middle;
 }
@@ -51,7 +56,7 @@
     height: 400px;
     position: relative;
     overflow: hidden;
-} 
+}
 
 /* Подключить шрифт */
 .gallery__title1 {

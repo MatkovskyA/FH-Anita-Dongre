@@ -1,0 +1,69 @@
+.luxury {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.luxury__wrapper,
+.luxury__img {
+    display: flex;
+    flex-direction: column;
+    height: 48%;
+}
+
+.luxury__dresses_img {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+.luxury__brown_box {
+    width: 221px;
+    height: 184px;
+    position: relative;
+    top: -164px;
+    left: -21px;
+    z-index: 1;
+}
+
+.luxury__img {
+    padding-right: 25px;
+}
+
+/* проверить подключени шрифта SF Pro - не работает*/
+.luxury__title {
+    color: #693621;
+    font-family: 'SF Pro';
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 33px;
+    padding-top: 17px;
+}
+
+.luxury__text {
+    color: rgba(105, 54, 33, 0.60);
+    font-family: 'SF Pro';
+    font-size: 20px;
+    font-weight: 590;
+    padding-bottom: 54px;
+}
+
+.luxury__btn {
+
+    padding: 7px 34px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    background-color: #693621;
+    cursor: pointer;
+    border: 3px solid #693621;
+}
+
+.luxury__btn:hover {
+    color: #693621;
+    background: rgb(255, 255, 255);
+}
