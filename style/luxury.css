@@ -46,10 +46,10 @@
     font-size: 20px;
     font-weight: 590;
     padding-bottom: 54px;
+
 }
 
-.luxury__btn {
-
+.btn {
     padding: 7px 34px;
     display: inline-flex;
     justify-content: center;
@@ -61,7 +61,7 @@
     border: 3px solid #693621;
 }
 
-.luxury__btn:hover {
+.btn:hover {
     color: #693621;
     background: rgb(255, 255, 255);
 }

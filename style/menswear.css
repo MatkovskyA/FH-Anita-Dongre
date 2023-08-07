@@ -1,0 +1,49 @@
+.menswear__img {
+    position: relative;
+}
+
+.menswear__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menswear__decor {
+    position: relative;
+    bottom: 390px;
+    padding-left: 17.5px;
+}
+
+.menswear__inner {
+    text-align: right;
+    padding-right: 40px;
+}
+
+.menswear__title {
+    color: #693621;
+    font-family: 'SF Pro';
+    font-size: 80px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 83px;
+}
+
+.menswear__text {
+    color: #000;
+    font-family: 'SF Pro';
+    font-size: 20px;
+    font-weight: 590;
+    padding-bottom: 92px;
+}
+
+
+.menswear__dots {
+    position: absolute;
+    text-align: right;
+    bottom: 135px;
+    left: 554px;
+}
+
+.dot2 {
+    margin-top: 20px;
+}

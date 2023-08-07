@@ -1,6 +1,7 @@
 .jewellry__wrapper {
     position: relative;
     overflow: hidden;
+    padding-bottom: 20px;
 }
 
 .jew__border {
