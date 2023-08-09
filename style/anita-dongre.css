@@ -1,0 +1,60 @@
+.anita__dongre_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ready__to_ship,
+.december {
+    text-align: center;
+    position: relative;
+}
+
+.name {
+    margin-top: 450px;
+    width: 200px;
+    white-space: nowrap;
+    transform: rotate(-90deg);
+    color: rgba(211, 145, 89, 0.25);
+    text-align: center;
+    font-family: 'SF Pro';
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.main__img {
+    position: relative;
+    z-index: 6;
+}
+
+.secondary__img {
+    width: 170px;
+    height: 227px;
+    position: absolute;
+    top: 0;
+    z-index: 8;
+}
+
+.img3 {
+    left: 0;
+}
+
+.img12 {
+    right: 0;
+}
+
+.title {
+    color: #5D3617;
+    text-align: center;
+    font-family: SF Pro;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.text {
+    border-top: 5px solid #5D3617;
+    color: rgba(105, 54, 33, 0.60);
+    font-family: 'SF Pro';
+    font-size: 20px;
+    font-weight: 590;
+    padding-top: 10px;
+}
