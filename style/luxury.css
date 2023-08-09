@@ -30,21 +30,18 @@
     padding-right: 25px;
 }
 
-/* проверить подключени шрифта SF Pro - не работает*/
 .luxury__title {
     color: #693621;
-    font-family: 'SF Pro';
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 600;
     padding-bottom: 33px;
     padding-top: 17px;
 }
 
 .luxury__text {
     color: rgba(105, 54, 33, 0.60);
-    font-family: 'SF Pro';
     font-size: 20px;
-    font-weight: 590;
+    font-weight: 600;
     padding-bottom: 54px;
 
 }

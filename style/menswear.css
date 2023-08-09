@@ -22,7 +22,6 @@
 
 .menswear__title {
     color: #693621;
-    font-family: 'SF Pro';
     font-size: 80px;
     font-weight: 700;
     padding-top: 50px;
@@ -31,7 +30,6 @@
 
 .menswear__text {
     color: #000;
-    font-family: 'SF Pro';
     font-size: 20px;
     font-weight: 590;
     padding-bottom: 92px;

@@ -16,7 +16,6 @@
     transform: rotate(-90deg);
     color: rgba(211, 145, 89, 0.25);
     text-align: center;
-    font-family: 'SF Pro';
     font-size: 65px;
     font-weight: 700;
 }
@@ -45,7 +44,6 @@
 .title {
     color: #5D3617;
     text-align: center;
-    font-family: SF Pro;
     font-size: 70px;
     font-weight: 700;
 }
@@ -53,7 +51,6 @@
 .text {
     border-top: 5px solid #5D3617;
     color: rgba(105, 54, 33, 0.60);
-    font-family: 'SF Pro';
     font-size: 20px;
     font-weight: 590;
     padding-top: 10px;

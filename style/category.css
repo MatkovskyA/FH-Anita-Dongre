@@ -4,17 +4,14 @@
 
 .category__title {
     color: #000;
-    /* font */
-    font-family: 'SF Pro';
     font-size: 20px;
-    font-weight: 590;
+    font-weight: 700;
     text-decoration-line: underline;
     margin-bottom: 24px;
 }
 
 .category__text {
     color: #693621;
-    font-family: 'SF Pro';
     font-size: 50px;
     font-weight: 700;
     padding-left: 160px;
@@ -23,7 +20,6 @@
 
 .text__wear {
     color: rgba(105, 54, 33, 0.60);
-    font-family: 'SF Pro';
     font-size: 20px;
     font-weight: 590;
 }
