@@ -26,7 +26,7 @@
     cursor: pointer;
 }
 
-.dots3:hover {
+.dots3:active {
     background-color: #69362180;
 }
 
