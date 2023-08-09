@@ -47,4 +47,9 @@
 .dot2 {
     margin-top: 20px;
     cursor: pointer;
+    background-color: #693621;
+}
+
+.dot2:hover {
+    background-color: #69362180;
 }
