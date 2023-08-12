@@ -1,4 +1,4 @@
-.head__contacts {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,11 +6,11 @@
     padding-bottom: 10px;
 }
 
-.head__icons img{
+.header__icons img {
     padding-left: 45px;
 }
 
-.head__navigation {
+.header__nav {
     list-style: none;
     margin: 0 6px;
     text-align: center;
@@ -31,6 +31,3 @@ a {
 a:hover {
     color: #aa8878;
 }
-
-
-
