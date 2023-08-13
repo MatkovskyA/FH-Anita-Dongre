@@ -1,6 +1,61 @@
-/* Стили для gallery__sliders */
+/* Предыдущий вариант стилизации блока */
+/* .category {
+    text-align: center;
+}
+
+.category__title {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-bottom: 24px;
+}
+
+.category__text {
+    color: #693621;
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.text__wear {
+    color: rgba(105, 54, 33, 0.60);
+    font-size: 20px;
+    font-weight: 590;
+}
+
+.caetgory__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 16px;
+}
+
+.category__btn_prev {
+    background-image: url(../resourses/shopByCategory/prev.png);
+    width: 96px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.category__btn_next {
+    background-image: url(../resourses/shopByCategory/next.png);
+    width: 96px;
+    height: 22px;
+    background-color: #fff;
+    cursor: pointer;
+} */
+
+
+
+
+
+
+
+/* Стили для gallery__sliders
 /* Стили для стрелок */
-.btn__prev_slide,
+/* .btn__prev_slide,
 .btn__next_slide {
     width: 35px;
     height: 30px;
@@ -24,7 +79,7 @@
 }
 
 /* Стили слайдера */
-.btn__prev_slide,
+/* .btn__prev_slide,
 .btn__next_slide,
 .slider__wrapper,
 .dot {
@@ -56,10 +111,10 @@
     height: 400px;
     position: relative;
     overflow: hidden;
-}
+} */
 
 /* Подключить шрифт */
-.gallery__title1 {
+/* .gallery__title1 {
     position: absolute;
     color: #FFEFE0;
     top: 50px;
@@ -93,4 +148,4 @@
 
 .active {
     background-color: #693621;
-}
+} */

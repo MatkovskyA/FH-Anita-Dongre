@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/gallery.css">
     <link rel="stylesheet" href="style/luxury.css">
-    <link rel="stylesheet" href="style/category.css">
+    <link rel="stylesheet" href="style/slider.css">
     <link rel="stylesheet" href="style/categ-popup.css">
     <link rel="stylesheet" href="style/jewellry.css">
     <link rel="stylesheet" href="style/menswear.css">
@@ -56,8 +56,26 @@
             </nav>
         </header>
         <main>
-            <div class="sliders">
-                <button class="btn__prev_slide"></button>
+            <div class="slider">
+                <div class="slider__item">
+                    <img src="resourses/Photo-container/Loved-by-animals.png" alt="Lady in red dress with a horse">
+                    <p class="slider__item_inner item_title1">“loved by<br>animals”</p>
+                    <p class="slider__item_inner item_text1">Introducing Vegan Accessories</p>
+                </div>
+                <div class="slider__item">
+                    <img src="resourses/Photo-container/The-bridal-edit.png" alt="Lady in white dress">
+                    <p class="slider__item_inner item_title2">THE BRIDAL<br>edit.</p>
+                    <p class="slider__item_inner item_text2">handcrafted lehengas<br>for every bride</p>
+                </div>
+                <div class="slider__item">
+                    <img src="resourses/Photo-container/Ready-to-ship.png" alt="Lady in purple dress">
+                    <div class="slider__item_inner">
+                        <p class="slider__item_inner item_title3">ready to<br>SHIP</p>
+                        <button class="slider__item_inner item_btn">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- <button class="btn__prev_slide"></button>
                 <div class="slider__wrapper">
                     <div class="slider__line">
                         <div class="slide">
@@ -82,11 +100,13 @@
                 </div>
                 <button class="btn__next_slide"></button>
             </div>
-            <div class="sliders__dots">
+            <div class="sliders__dots"> 
                 <div class="dot active"></div>
                 <div class="dot"></div>
                 <div class="dot"></div>
             </div>
+            -->
+
             <div class="luxury">
                 <div class="luxury__wrapper ">
                     <p class="luxury__title" id="lux">CONSCIOUS LUXURY <br>FOR YOU</p>
@@ -104,6 +124,7 @@
                     <img src="resourses/Luxury-for-you/Rectangle 2.png" class="luxury__brown_box" alt="brown box">
                 </div>
             </div>
+            <!--
             <div class="category">
                 <div class="category__title">
                     <p class="categ__title">Shop By Category</p>
@@ -289,11 +310,15 @@
                 </div>
             </div>
         </footer>
-
-
-
     </div>
-    <script src="index.js"></script>
+    -->
+
+            <!-- Подключение jQuery -->
+            <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+            <!-- Подключение слайдера Slick -->
+            <script src="JavaScript/slick.min.js"></script>
+            <!-- Подключение файла JS -->
+            <script src="JavaScript/index.js"></script>
 </body>
 
 </html>
