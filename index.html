@@ -10,18 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&display=swap" rel="stylesheet">
     <link rel="icon" href="resourses/Header/icons8-сари-48.png">
     <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/header.css">
-    <link rel="stylesheet" href="style/gallery.css">
-    <link rel="stylesheet" href="style/luxury.css">
-    <link rel="stylesheet" href="style/slider.css">
-    <link rel="stylesheet" href="style/categ-popup.css">
-    <link rel="stylesheet" href="style/jewellry.css">
-    <link rel="stylesheet" href="style/menswear.css">
-    <link rel="stylesheet" href="style/footwear.css">
-    <link rel="stylesheet" href="style/wedding.css">
-    <link rel="stylesheet" href="style/crafts-of-india.css">
-    <link rel="stylesheet" href="style/anita-dongre.css">
-    <link rel="stylesheet" href="style/footer.css">
     <title>Fashion House(Anita Dongre)</title>
 </head>
 
@@ -43,7 +31,7 @@
             </div>
             <nav>
                 <ul class="header__nav">
-                    <li><a href="#lux">WOMEN</a></li>
+                    <li><a href="#luxury__title">WOMEN</a></li>
                     <li><a href="#men">MEN</a></li>
                     <li><a href="#wedding">WEDDING</a></li>
                     <li><a href="#jewellry">JEWELLRY</a></li>
@@ -109,7 +97,7 @@
 
             <div class="luxury">
                 <div class="luxury__wrapper ">
-                    <p class="luxury__title" id="lux">CONSCIOUS LUXURY <br>FOR YOU</p>
+                    <p class="luxury__title" id="luxury__title">CONSCIOUS LUXURY <br>FOR YOU</p>
                     <p class="luxury__text">At Anita Dongre, we design elegant,<br> effortless pieces that suit every
                         occasion.<br> All our creations are rooted in conscious<br> luxury, and contemporary
                         interpretations
@@ -124,52 +112,54 @@
                     <img src="resourses/Luxury-for-you/Rectangle 2.png" class="luxury__brown_box" alt="brown box">
                 </div>
             </div>
-            <!--
+
             <div class="category">
                 <div class="category__title">
-                    <p class="categ__title">Shop By Category</p>
+                    <p class="category__title_text">Shop By Category</p>
                 </div>
-                <div class="caetgory__wrapper">
+                <div class="category__wrapper">
                     <button class="category__btn_prev"></button>
-                    <p class="category__text">READY <span class="text__wear"> to wear </span></p>
+                    <p class="category__text">READY <span class="category__text__wear"> to wear </span></p>
                     <button class="category__btn_next"></button>
                 </div>
-                <div class="category__popup">
-                    <div class="popup__image1">
-                        <img src="resourses/shopByCategory/Saree.png" alt="Lady in red dress">
-                        <div class="popup__text">
-                            <p class="popup__text1">Saree</p>
+                <div class="category__images">
+                    <div class="category__image1">
+                        <img src="resourses/shopByCategory/Red dress.png" alt="Lady in red dress">
+                        <div class="category__text">
+                            <p class="category__text_text1">Saree</p>
                         </div>
                     </div>
-                    <div class="popup__image2">
-                        <img src="resourses/shopByCategory/Sets.png" alt="Lady in long green dress">
-                        <div class="popup__text">
-                            <p class="popup__text2">Sets</p>
+                    <div class="category__image2">
+                        <img src="resourses/shopByCategory/Green dress.png" alt="Lady in long green dress">
+                        <div class="category__text">
+                            <p class="category__text_text2">Sets</p>
                         </div>
                     </div>
-                    <div class="popup__image3">
-                        <img src="resourses/shopByCategory/Kurta-sets.png" alt="Lady in black dress">
-                        <div class="popup__text">
-                            <p class="popup__text3">Kurta Sets</p>
+                    <div class="category__image3">
+                        <img src="resourses/shopByCategory/Black dress.png" alt="Lady in black dress">
+                        <div class="category__text">
+                            <p class="category__text_text3">Kurta Sets</p>
                         </div>
                     </div>
-                    <div class="popup__image4">
-                        <img src="resourses/shopByCategory/Dresses.png" alt="Lady in green dress">
-                        <div class="popup__text">
-                            <p class="popup__text4">Dresses</p>
+                    <div class="category__image4">
+                        <img src="resourses/shopByCategory/green suit.png" alt="Lady in green dress">
+                        <div class="category__text">
+                            <p class="category__text_text4">Dresses</p>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="jewellry" id="jewellry">
                 <div class="jewellry__wrapper">
                     <div class="jewellry__img">
-                        <img src="resourses/Jewellry/original.png" class="jew__img" alt="Lady with jewellry">
-                        <div class="jew__border"></div>
-                        <div class="jewellry__btn"></div>
+                        <img src="resourses/Jewellry/original.png" class="jewellry__img_img" alt="Lady with jewellry">
+                        <div class="jewellry__img_border"></div>
+                        <div class="jewellry__img_btn"></div>
                     </div>
                 </div>
             </div>
+
             <div class="menswear">
                 <div class="menswear__wrapper">
                     <div class="menswear__img">
@@ -178,7 +168,6 @@
                         <div class="menswear__dots">
                             <div class="dot2 dot"></div>
                             <div class="dot2 dot"></div>
-
                         </div>
                     </div>
                     <div class="menswear__inner">
@@ -196,9 +185,18 @@
                 <div class="footwear__wrapper">
                     <div class="footwear__inner">
                         <img src="resourses/Footwear/image 8.png" class="footwear__img1" alt="Sandals">
-                        <div class="footwear__dots">
-                            <div class="dots3"></div>
-                            <div class="dots3"></div>
+                        <div class="footwear__dots" id="footwear__dots">
+                            <div class="footwear__inner_text" id="footwear__inner_text">
+                                <p class="inner__text_title">FOOTWEAR</p>
+                                <p class="inner__text_text">Take your steps to a kinder planet<br>
+                                    with our exquisite collection of<br>
+                                    vegan and cruelty free footwear<br>
+                                    that cherishes nature in both<br>
+                                    its inspiration and purpose.<br>
+                                </p>
+                            </div>
+                            <button class="dots3 active" type="submit" id="block_bar"></button>
+                            <button class="dots3" type="submit" id="show_bar"></button>
                         </div>
                         <div class="footwear__button">
                             <button class="footwear_btn btn">Shop Now</button>
@@ -207,6 +205,7 @@
                     </div>
                 </div>
             </div>
+            <!--
             <div class="wedding">
                 <div class="wedding__wrapper">
                     <div class="wedding__inner">
