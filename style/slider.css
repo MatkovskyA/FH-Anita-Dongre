@@ -1,15 +1,10 @@
-/* Ограничевающая оболочка */
-.slick-list {
-    overflow: hidden;
-}
+/* Ограничевающая оболочка 
+.slick-list {}
 
-/* Лента слайдов */
-.slick-track {
-    display: flex;
-    margin-bottom: 10px;
-}
+Лента слайдов 
+.slick-track {}
 
-/* Слайдер
+Слайдер
 .slick-slider {}
 
 Слайд
@@ -44,6 +39,15 @@
 .slick-dots button {} */
 
 /* Первый слайдер */
+.slider .slick-list {
+    overflow: hidden;
+}
+
+.slider .slick-track {
+    display: flex;
+    margin-bottom: 10px;
+}
+
 .slider {
     position: relative;
     padding: 20px 100px;

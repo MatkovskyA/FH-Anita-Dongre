@@ -1,3 +1,16 @@
+@import url(../style/anita-dongre.css);
+@import url(../style/category.css);
+@import url(../style/crafts-of-india.css);
+@import url(../style/footer.css);
+@import url(../style/footwear.css);
+@import url(../style/gallery.css);
+@import url(../style/header.css);
+@import url(../style/jewellry.css);
+@import url(../style/luxury.css);
+@import url(../style/menswear.css);
+@import url(../style/wedding.css);
+@import url(../style/slider.css);
+
 @font-face {
     font-family: SF-pro;
     src: url(../fonts/SF-Pro-Display-Regular.ttf);

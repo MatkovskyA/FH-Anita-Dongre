@@ -6,7 +6,7 @@
 .footwear__inner {
     display: inline-flex;
     position: relative;
-
+    justify-content: space-between;
 }
 
 .footwear__img1 {
@@ -22,12 +22,32 @@
 .dots3 {
     width: 5px;
     height: 65px;
-    background-color: #693621;
+    background: #693621;
     cursor: pointer;
 }
 
-.dots3:active {
-    background-color: #69362180;
+.active {
+    background: rgba(224, 152, 120, 0.5);
+}
+
+.footwear__inner_text {
+    position: absolute;
+    width: 400px;
+    left: -200px;
+    top: -250px;
+    text-align: center;
+}
+
+.inner__text_title {
+    color: #693621;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.inner__text_text {
+    color: rgba(105, 54, 33, 0.60);
+    font-size: 20px;
+    font-weight: 590;
 }
 
 .footwear__button {

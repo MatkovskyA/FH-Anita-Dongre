@@ -4,7 +4,7 @@
     padding-bottom: 20px;
 }
 
-.jew__border {
+.jewellry__img_border {
     position: absolute;
     width: 230.5px;
     height: 430.5px;
@@ -14,7 +14,7 @@
     left: 80px;
 }
 
-.jewellry__btn {
+.jewellry__img_btn {
     background-image: url(../resourses/Jewellry/Group.png);
     position: absolute;
     width: 75px;
