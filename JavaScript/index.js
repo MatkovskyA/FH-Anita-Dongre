@@ -7,36 +7,51 @@ $(document).ready(function(){
 
 
 // --------- отображаем текст в блоке footwears ----------
-const btnShowBar = document.getElementById('show_bar');
-const btnBlockBar = document.getElementById('block_bar');
-let viewTextDiv = document.getElementById("footwear__inner_text");
-viewTextDiv.style.display = 'none';
+// const btnShowBar = document.getElementById('show_bar');
+// const btnBlockBar = document.getElementById('block_bar');
+// let viewTextDiv = document.getElementById("footwear__inner_text");
+// viewTextDiv.style.display = 'none';
 
-const header = document.getElementById("footwear__dots");
-const btns = header.getElementsByClassName("dots3");
+// const buttons = document.getElementById("footwear__dots");
+// const btns = buttons.getElementsByClassName("dots3");
+// //задаю класс активный по клику
+// for (let i = 0; i < btns.length; i++) {
+// btns[i].addEventListener("click", function() {
+// let current = document.getElementsByClassName("active");
+// current[0].className = current[0].className.replace(" active", "");
+// this.className += " active";
+// });
+// }
 
-for (let i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  let current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" active", "");
-  this.className += " active";
-  });
+// //функции
+// function showText() {
+//     viewTextDiv.style.display = 'inline';
+// }
+
+// function blockText() {
+//     viewTextDiv.style.display = 'none';
+// }
+// //обработчики при клике - отображают и убирают текст
+// btnShowBar.addEventListener('click', showText)
+// btnBlockBar.addEventListener('click', blockText)
+
+// ----- отображаем текст и декор в блоке JEWELLRY ---------
+const visibleBorder = document.getElementById('jewellry__border_visible');
+const showTextBtn = document.getElementById('jewellry__btn');
+let showTextDiv = document.getElementById('jewellry__inner');
+
+
+function showDiv() {
+    showTextDiv.style.display = 'none';
+    if (showTextDiv.style.display) {
+        showTextDiv.style.display = 'inline';
+    }
+    if (showTextDiv.style.display = 'inline') {
+        showTextDiv.style.display = 'none'
+    }
 }
 
-//функции
-function showText() {
-    viewTextDiv.style.display = 'inline';
-}
-
-function blockText() {
-    viewTextDiv.style.display = 'none';
-}
-//обработчики
-btnShowBar.addEventListener('click', showText)
-btnBlockBar.addEventListener('click', blockText)
-
-
-
+showTextBtn.addEventListener('click', showDiv)
 
 
 
