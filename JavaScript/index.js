@@ -41,17 +41,23 @@ const showTextBtn = document.getElementById('jewellry__btn');
 let showTextDiv = document.getElementById('jewellry__inner');
 
 
-function showDiv() {
-    showTextDiv.style.display = 'none';
-    if (showTextDiv.style.display) {
-        showTextDiv.style.display = 'inline';
-    }
-    if (showTextDiv.style.display = 'inline') {
-        showTextDiv.style.display = 'none'
-    }
-}
+// function showDiv() {
+//     if (visibleBorder.style.display = "block") {
+//         showTextDiv.style.display = 'block';
+//         visibleBorder.style.display = 'none'
+//     } else if (visibleBorder.style.display = 'none') {
+//         visibleBorder.style.display = 'block';
+//         showTextDiv.style.display = 'none'
+//     }
 
-showTextBtn.addEventListener('click', showDiv)
+// }
+
+
+showTextBtn.addEventListener('click', () => {
+    showTextDiv.style.display = getComputedStyle(showTextDiv).display == 'block' ? 'none' : 'block';
+    visibleBorder.style.display = getComputedStyle(visibleBorder).display == 'block' ? 'none' : 'block';
+})
+
 
 
 
