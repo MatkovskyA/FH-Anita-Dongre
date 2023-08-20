@@ -95,13 +95,18 @@
 }
 
 .slider__item_inner.item_title3 {
+    box-sizing: border-box;
+    width: 277px;
     bottom: 150px;
-    padding-left: 460px;
+    left: 460px;
     color: #FFF;
     font-family: Inter;
     font-size: 60px;
     font-weight: 500;
+}
 
+.title_bold {
+    font-weight: 700;
 }
 
 .slider__item_inner.item_btn {

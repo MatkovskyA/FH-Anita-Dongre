@@ -46,12 +46,19 @@
     font-style: italic;
 }
 
+@font-face {
+    font-family: SF-Pro;
+    src: url(../fonts/SF-Pro-Display-Black.otf);
+    font-weight: 700;
+    font-style: normal;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: SF-Pro;
+    font-family: SF-Pro, Inter;
 }
 
 
@@ -67,3 +74,21 @@ body {
     width: 1200px;
     padding: 0 40px;
 }
+
+h2 {
+    color: #693621;
+    font-family: SF-Pro;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 600;
+}
+
+/* h4 {
+    color: rgba(105, 54, 33, 0.50);
+    text-align: right;
+    font-family: SF-Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 590;
+    line-height: normal;
+} */

@@ -3,8 +3,23 @@ $(document).ready(function(){
         // arrows:false, по макету их не видно
         dots:true,
     });
+    $('.menswear__slider').slick({
+        arrows:false,
+        dots:true,
+        vertical:true
+    })
 });
 
+
+//  ----- отображаем текст и декор в блоке JEWELLRY ---------
+// const visibleBorder = document.getElementById('jewellry__border_visible');
+// const showTextBtn = document.getElementById('jewellry__btn');
+// let showTextDiv = document.getElementById('jewellry__inner');
+// // функция отображения и скрытия блоков с текстом
+// showTextBtn.addEventListener('click', () => {
+//     showTextDiv.style.display = getComputedStyle(showTextDiv).display == 'block' ? 'none' : 'block';
+//     visibleBorder.style.display = getComputedStyle(visibleBorder).display == 'block' ? 'none' : 'block';
+// })
 
 // --------- отображаем текст в блоке footwears ----------
 // const btnShowBar = document.getElementById('show_bar');
@@ -35,68 +50,5 @@ $(document).ready(function(){
 // btnShowBar.addEventListener('click', showText)
 // btnBlockBar.addEventListener('click', blockText)
 
-// ----- отображаем текст и декор в блоке JEWELLRY ---------
-const visibleBorder = document.getElementById('jewellry__border_visible');
-const showTextBtn = document.getElementById('jewellry__btn');
-let showTextDiv = document.getElementById('jewellry__inner');
-
-
-// function showDiv() {
-//     if (visibleBorder.style.display = "block") {
-//         showTextDiv.style.display = 'block';
-//         visibleBorder.style.display = 'none'
-//     } else if (visibleBorder.style.display = 'none') {
-//         visibleBorder.style.display = 'block';
-//         showTextDiv.style.display = 'none'
-//     }
-
-// }
-
-
-showTextBtn.addEventListener('click', () => {
-    showTextDiv.style.display = getComputedStyle(showTextDiv).display == 'block' ? 'none' : 'block';
-    visibleBorder.style.display = getComputedStyle(visibleBorder).display == 'block' ? 'none' : 'block';
-})
-
-
-
-
-
-// Самостоятельный вариант слайдера(не доработан)
-
-// // константы из index.html
-// const sliderLineNode = document.querySelector('.slider__wrapper');
-// const prevSliderBtn = document.querySelector('.btn__prev_slide');
-// const nextSliderBtn = document.querySelector('.btn__next_slide');
-// const dotsNode = document.querySelectorAll('.dot');
-
-
-// let position = 0;
-// // для выбора индикатора под слайдами
-// let dotIndex = 0;
-
-// //-----functions---------
-
-// const nextSlide = () => {
-//     if (position < 2880) {
-//     position += 960;
-//     } else {
-//         position = 0;
-//     }
-//     sliderLineNode.style.left = -position + 'px';
-// }
-
-// // ----eventlisteners----
-
-// nextSliderBtn.addEventListener('click', nextSlide);
-
-// const showMes = () => {
-//     const name = true;
-//     if (name) {
-//         alert("Ok")
-//     }
-// }
-
-// prevSliderBtn.addEventListener('click', showMes)
 
 

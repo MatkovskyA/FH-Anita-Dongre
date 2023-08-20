@@ -3,15 +3,17 @@
 }
 
 .menswear__wrapper {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 32px;
+    min-width: 0;
 }
 
 .menswear__decor {
     position: relative;
-    bottom: 390px;
+    bottom: 155px;
     padding-left: 17.5px;
 }
 
@@ -21,9 +23,7 @@
 }
 
 .menswear__title {
-    color: #693621;
-    font-size: 80px;
-    font-weight: 700;
+    font-size: 90px;
     padding-top: 50px;
     padding-bottom: 83px;
 }
@@ -35,7 +35,49 @@
     padding-bottom: 92px;
 }
 
-.menswear__dots {
+/* стили слайдера */
+.menswear__slider {
+    min-width: 0;
+}
+
+.menswear__slider .slick-list {
+    overflow: hidden;
+}
+
+
+
+.menswear__slider .slick-dots {
+    position: absolute;
+    bottom: 86px;
+    left: 545px;
+}
+
+.menswear__slider .slick-dots li {
+    list-style: none;
+}
+
+.menswear__slider .slick-dots button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #693621;
+}
+
+.menswear__slider .slick-dots li.slick-active button {
+    background-color: #c28369;
+}
+
+.menswear__slider .slick-track {
+    display: block;
+}
+
+.menswear__slider_item {
+    height: 623px;
+    padding-top: 3px;
+}
+
+/* .menswear__dots {
     position: absolute;
     text-align: right;
     bottom: 135px;
@@ -50,4 +92,4 @@
 
 .dot2:active {
     background-color: #69362180;
-}
+} */

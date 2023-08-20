@@ -30,10 +30,10 @@
     padding-right: 25px;
 }
 
-.luxury__title {
+h2.luxury__title {
     color: #693621;
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 700;
     padding-bottom: 33px;
     padding-top: 17px;
 }
