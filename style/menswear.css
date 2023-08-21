@@ -44,8 +44,6 @@
     overflow: hidden;
 }
 
-
-
 .menswear__slider .slick-dots {
     position: absolute;
     bottom: 86px;
@@ -76,20 +74,3 @@
     height: 623px;
     padding-top: 3px;
 }
-
-/* .menswear__dots {
-    position: absolute;
-    text-align: right;
-    bottom: 135px;
-    left: 554px;
-}
-
-.dot2 {
-    margin-top: 20px;
-    cursor: pointer;
-    background-color: #693621;
-}
-
-.dot2:active {
-    background-color: #69362180;
-} */

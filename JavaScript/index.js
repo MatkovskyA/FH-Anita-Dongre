@@ -10,6 +10,21 @@ $(document).ready(function(){
     })
 });
 
+// блок wedding
+changeItem()
+rechangeItem()
+function changeItem() {
+    let a = document.querySelector('.wedding__image').style.left = "-170px";
+    let b = document.querySelector('.wedding__title').style.width = "230px";
+    return a, b
+}
+
+function rechangeItem() {
+    let a = document.querySelector('.wedding__image').style.left = "0px";
+    let b = document.querySelector('.wedding__title').style.width = "460px";
+    return a, b
+}
+
 
 //  ----- отображаем текст и декор в блоке JEWELLRY ---------
 // const visibleBorder = document.getElementById('jewellry__border_visible');

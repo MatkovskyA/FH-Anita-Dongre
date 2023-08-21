@@ -1,17 +1,19 @@
 .wedding__wrapper {
     display: flex;
     padding-top: 105px;
-    padding-bottom: 51px;
     justify-content: space-between;
-    position: relative;
+    overflow: hidden;
 }
 
 .wedding__title {
     color: #5D3617;
     font-size: 70px;
-    font-weight: 700;
+    font-weight: 600;
     padding-left: 20px;
     padding-bottom: 20px;
+    width: 450px;
+    min-width: 260px;
+    transition-duration: 1s;
 }
 
 .wedding__text {
@@ -20,20 +22,113 @@
     font-weight: 590;
     padding-left: 20px;
     padding-bottom: 181px;
+    height: 48px;
 }
 
 .wedding__button {
-    padding-left: 63px;
+    position: absolute;
+    padding-left: 53px;
 }
 
-.wedding__img {
-    left: 700px;
-    position: absolute;
-    z-index: 7;
+.wedding__image {
+    position: relative;
+    display: flex;
+    height: 413px;
+    margin-left: 220px;
+    transition-duration: 1s;
 }
 
 .wedding__decor {
     position: relative;
+    width: 146px;
+    height: 176px;
     top: 123px;
     z-index: 6;
+    left: -50px;
 }
+
+/* .wedding__image:hover {
+    position: relative;
+    left: -400px;
+}
+
+.wedding__image:hover~.wedding__title {
+    width: 260px;
+} */
+
+.wedding__img1 {
+    position: relative;
+    z-index: 7;
+}
+
+.wedding__img2 {
+    position: relative;
+    left: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+/* .wedding__image {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    height: 413px;
+}
+
+.wedding__img1 {
+    position: fixed;
+    z-index: 7;
+    left: 600px;
+}
+
+.wedding__img2 {
+    z-index: 7;
+    overflow: hidden;
+}
+
+.wedding__decor {
+    position: relative;
+    left: 380px;
+    top: 123px;
+    z-index: 6;
+    width: 146.15px;
+    height: 176.025px;
+}
+
+.wedding__image:hover {
+    left: 100px;
+    top: 100px
+}
+
+.wedding__image:hover {
+    left: -200px;
+}
+
+.pictureContainer img {
+    position: relative;
+    top: 0px;
+
+    transition: top .2s ease-in-out;
+}
+
+.pictureContainer img:hover {
+    top: -150px;
+} */
+
+
+/* @keyframes image-appearance {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: 300px;
+    }
+} */
