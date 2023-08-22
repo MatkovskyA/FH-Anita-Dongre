@@ -31,6 +31,7 @@
     position: absolute;
     top: 0;
     z-index: 8;
+    cursor: pointer;
 }
 
 .img3 {
@@ -54,4 +55,25 @@
     font-size: 20px;
     font-weight: 590;
     padding-top: 10px;
+}
+
+.zoom__photo {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 6;
+    transition: 1s ease;
+}
+
+.reduce__foto {
+    width: 170px;
+    height: 227px;
+    position: absolute;
+    top: 0;
+    z-index: 8;
+    transition: 0.5s ease;
+}
+
+.img123 {
+    padding-left: 150px;
 }
