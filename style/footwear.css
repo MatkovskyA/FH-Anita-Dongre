@@ -1,6 +1,7 @@
 .footwear__wrapper {
     padding-top: 40px;
     background-color: #e7e5e5;
+    margin-bottom: 105px;
 }
 
 .footwear__inner {
@@ -26,7 +27,7 @@
     cursor: pointer;
 }
 
-.active {
+.footwears__btn_active {
     background: rgba(224, 152, 120, 0.5);
 }
 

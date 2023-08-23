@@ -50,7 +50,8 @@
 
 .slider {
     position: relative;
-    padding: 20px 100px;
+    padding: 0px 100px;
+    margin-bottom: 40px;
 }
 
 .slider__item_inner {
@@ -141,11 +142,13 @@
     left: 0;
     background: url(../resourses/Photo-container/arrow-next50.png) 0 0 no-repeat;
     transform: rotate(180deg);
+    cursor: pointer;
 }
 
 .slider .slick-arrow.slick-next {
     right: 0;
     background: url(../resourses/Photo-container/arrow-next50.png) 0 0 no-repeat;
+    cursor: pointer;
 }
 
 .slider .slick-dots {

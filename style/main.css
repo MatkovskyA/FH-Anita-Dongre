@@ -59,6 +59,7 @@ html {
 
 body {
     font-family: SF-Pro, Inter;
+    min-width: 1200px;
 }
 
 
@@ -92,3 +93,17 @@ h2 {
     font-weight: 590;
     line-height: normal;
 } */
+
+@media (max-width: 1199px) {
+    .container {
+        width: 100%;
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding: 0 25px;
+    }
+}

@@ -8,6 +8,11 @@ $(document).ready(function(){
         dots:true,
         vertical:true
     })
+    // $('.category__slider_items').slick({
+    //     slidesToShow:4,
+    //     arrows:true,
+    //     slideToScroll:1,
+    // })
 });
 
 // блок wedding - отображение блока 
@@ -70,9 +75,9 @@ const btns = buttons.getElementsByClassName("dots3");
 //задаю класс активный по клику
 for (let i = 0; i < btns.length; i++) {
 btns[i].addEventListener("click", function() {
-let current = document.getElementsByClassName("active");
-current[0].className = current[0].className.replace(" active", "");
-this.className += " active";
+let current = document.getElementsByClassName("footwears__btn_active");
+current[0].className = current[0].className.replace(" footwears__btn_active", "");
+this.className += " footwears__btn_active";
 });
 }
 
@@ -88,5 +93,45 @@ function blockText() {
 btnShowBar.addEventListener('click', showText)
 btnBlockBar.addEventListener('click', blockText)
 
+
+// ------ блок галереи с слайдами ----------
+
+const btnPrevSlide = document.querySelector('.category__btn_prev');
+const btnNextSlide = document.querySelector('.category__btn_next');
+const currentDiv = Array.from(document.querySelectorAll('.category__image'));
+const activeClassname = 'active';
+
+let activeId;
+let newActiveid;
+
+init();
+// листаем картинки по клику 
+function init() {
+    activeId = 0;
+
+    btnPrevSlide.addEventListener('click', () => {
+        setActiveSlideById(getPrevId());
+    });
+
+    btnNextSlide.addEventListener('click', () => {
+        setActiveSlideById(getNextId());
+    });
+}
+// добьавляем активный класс по id
+function setActiveSlideById(id) {
+    const currentId = activeId;
+    activeId = id;
+
+    currentDiv[currentId].classList.remove(activeClassname)
+    currentDiv[activeId].classList.add(activeClassname)
+}
+// получаем id картинки для пролистывания
+function getPrevId() {
+    return activeId == 0 ? currentDiv.length - 1 : activeId - 1;
+}
+
+function getNextId() {
+    return activeId == (currentDiv.length - 1) ? 0 : activeId + 1;
+}
 
 

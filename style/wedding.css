@@ -1,8 +1,8 @@
 .wedding__wrapper {
     display: flex;
-    padding-top: 105px;
     justify-content: space-between;
     overflow: hidden;
+    margin-bottom: 50px;
 }
 
 .wedding__title {
@@ -21,13 +21,13 @@
     font-size: 20px;
     font-weight: 590;
     padding-left: 20px;
-    padding-bottom: 181px;
+    padding-bottom: 151px;
     height: 48px;
 }
 
 .wedding__button {
     position: absolute;
-    padding-left: 53px;
+    padding-left: 33px;
 }
 
 .wedding__image {
@@ -47,15 +47,6 @@
     left: -50px;
 }
 
-/* .wedding__image:hover {
-    position: relative;
-    left: -400px;
-}
-
-.wedding__image:hover~.wedding__title {
-    width: 260px;
-} */
-
 .wedding__img1 {
     position: relative;
     z-index: 7;
@@ -65,70 +56,3 @@
     position: relative;
     left: -50px;
 }
-
-
-
-
-
-
-
-
-
-
-/* .wedding__image {
-    display: flex;
-    position: relative;
-    overflow: hidden;
-    height: 413px;
-}
-
-.wedding__img1 {
-    position: fixed;
-    z-index: 7;
-    left: 600px;
-}
-
-.wedding__img2 {
-    z-index: 7;
-    overflow: hidden;
-}
-
-.wedding__decor {
-    position: relative;
-    left: 380px;
-    top: 123px;
-    z-index: 6;
-    width: 146.15px;
-    height: 176.025px;
-}
-
-.wedding__image:hover {
-    left: 100px;
-    top: 100px
-}
-
-.wedding__image:hover {
-    left: -200px;
-}
-
-.pictureContainer img {
-    position: relative;
-    top: 0px;
-
-    transition: top .2s ease-in-out;
-}
-
-.pictureContainer img:hover {
-    top: -150px;
-} */
-
-
-/* @keyframes image-appearance {
-    0% {
-        left: 0;
-    }
-
-    100% {
-        left: 300px;
-    }
-} */
