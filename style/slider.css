@@ -168,6 +168,7 @@
     height: 15px;
     border-radius: 50%;
     background-color: #693621;
+    cursor: pointer;
 }
 
 .slider .slick-dots li.slick-active button {
