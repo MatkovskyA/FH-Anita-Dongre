@@ -50,7 +50,7 @@
 
 .slider {
     position: relative;
-    padding: 0px 100px;
+    padding: 0px 110px;
     margin-bottom: 40px;
 }
 
@@ -64,7 +64,7 @@
     padding-left: 650px;
     color: #FFEFE0;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .slider__item_inner.item_text1 {

@@ -6,14 +6,13 @@
     padding-bottom: 10px;
 }
 
-.header__icons img {
+.header__items img {
     display: flex;
     padding-left: 45px;
 }
 
-.header__icons {
+.header__items {
     display: flex;
-
 }
 
 .header__nav {

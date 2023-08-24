@@ -8,11 +8,6 @@ $(document).ready(function(){
         dots:true,
         vertical:true
     })
-    // $('.category__slider_items').slick({
-    //     slidesToShow:4,
-    //     arrows:true,
-    //     slideToScroll:1,
-    // })
 });
 
 // блок wedding - отображение блока 

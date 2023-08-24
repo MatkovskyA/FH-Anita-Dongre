@@ -7,11 +7,9 @@
 }
 
 .crafts__title {
-    box-sizing: border-box;
     transform: rotate(-90deg);
-    color: #5D3617;
-    font-size: 65px;
-    font-weight: 700;
+    font-size: 70px;
+    font-weight: 600;
     text-align: left;
     padding-top: 235px;
 }
@@ -26,13 +24,9 @@
 
 .crafts__text {
     width: 338px;
-    color: rgba(105, 54, 33, 0.50);
     text-align: right;
-    font-size: 20px;
-    font-weight: 590;
     position: absolute;
     padding-top: 420px;
-
 }
 
 .crafts__inner {

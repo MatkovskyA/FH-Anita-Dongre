@@ -125,25 +125,32 @@
     font-size: 20px;
     font-weight: 590;
     text-decoration-line: underline;
+    padding-bottom: 24px;
 }
 
 .category__text {
-    color: #693621;
     text-align: center;
     font-size: 50px;
-    font-weight: 700;
     padding-left: 80px;
     padding-right: 80px;
 }
 
 .category__desc {
     position: absolute;
-    bottom: 90px;
+    bottom: 50px;
     left: 20%;
 }
 
 .category__desc :active {
     left: 40%;
+}
+
+.category__desc_text {
+    display: inline;
+    color: #FFF;
+    font-family: SF Pro;
+    font-size: 50px;
+    font-weight: 400;
 }
 
 .category__btn_prev,
@@ -152,10 +159,9 @@
     height: 22px;
 }
 
-
 .category__btn_next {
     background-image: url(../resourses/shopByCategory/prev.png);
-    transform: rotate(180deg);
+    transform: scale(-1, 1)
 }
 
 .category__btn_prev {
@@ -167,15 +173,6 @@
     color: rgba(105, 54, 33, 0.60);
     font-size: 20px;
     font-weight: 590;
-}
-
-.category__desc_text {
-    display: inline;
-    color: #FFF;
-    font-family: SF-Pro;
-    font-size: 30px;
-    font-weight: 400;
-
 }
 
 .category__image_img {
@@ -201,5 +198,4 @@
 
 .active {
     width: 75%;
-
 }

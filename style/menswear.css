@@ -8,7 +8,6 @@
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 32px;
-    min-width: 0;
 }
 
 .menswear__decor {
