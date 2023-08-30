@@ -18,7 +18,7 @@
 }
 
 .luxury__brown_box {
-    width: 221px;
+    max-width: 221px;
     height: 184px;
     position: relative;
     top: -164px;

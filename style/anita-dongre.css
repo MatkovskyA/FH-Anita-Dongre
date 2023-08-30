@@ -1,3 +1,5 @@
+/*фикс ширина у маленьких картинок*/
+
 .anita__dongre_inner {
     display: flex;
     justify-content: space-between;
@@ -11,7 +13,7 @@
 
 .name {
     margin-top: 450px;
-    width: 200px;
+    max-width: 200px;
     white-space: nowrap;
     transform: rotate(-90deg);
     color: rgba(211, 145, 89, 0.25);
@@ -62,7 +64,7 @@
 }
 
 .reduce__foto {
-    width: 170px;
+    max-width: 170px;
     height: 227px;
     position: absolute;
     top: 0;

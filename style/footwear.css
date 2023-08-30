@@ -33,7 +33,7 @@
 
 .footwear__inner_text {
     position: absolute;
-    width: 400px;
+    max-width: 400px;
     left: -200px;
     top: -250px;
     text-align: center;

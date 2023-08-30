@@ -15,7 +15,7 @@
 }
 
 .crafts__decor {
-    width: 205px;
+    max-width: 205px;
     height: 131px;
     text-align: left;
     position: relative;
@@ -23,14 +23,15 @@
 }
 
 .crafts__text {
-    width: 338px;
+    max-width: 338px;
     text-align: right;
     position: absolute;
     padding-top: 420px;
+    left: 230px;
 }
 
 .crafts__inner {
-    width: 300px;
+    max-width: 300px;
     display: flex;
     flex-direction: column;
     text-align: right;
@@ -38,7 +39,7 @@
 }
 
 .crafts__image {
-    width: 743px;
+    max-width: 743px;
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -51,7 +52,7 @@
 }
 
 .craft__img_dec {
-    width: 392px;
+    max-width: 392px;
     height: 323px;
     position: relative;
     z-index: 3;

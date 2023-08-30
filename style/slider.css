@@ -93,7 +93,6 @@
 
 .slider__item_inner.item_title3 {
     box-sizing: border-box;
-    width: 277px;
     bottom: 150px;
     left: 460px;
     color: #FFF;
@@ -129,7 +128,7 @@
     margin-top: -40px;
     z-index: 10;
     font-size: 0;
-    width: 50px;
+    min-width: 50px;
     height: 50px;
     align-items: center;
 }

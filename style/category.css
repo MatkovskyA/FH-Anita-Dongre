@@ -155,19 +155,18 @@
 
 .category__btn_prev,
 .category__btn_next {
-    width: 96px;
+    width: 8%;
     height: 22px;
     cursor: pointer;
 }
 
 .category__btn_next {
     background-image: url(../resourses/shopByCategory/prev.png);
-    transform: scale(-1, 1)
+    transform: scale(-1, 1);
 }
 
 .category__btn_prev {
     background-image: url(../resourses/shopByCategory/prev.png);
-
 }
 
 .category__text__wear {

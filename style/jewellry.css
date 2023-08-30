@@ -23,7 +23,7 @@
 }
 
 .jewellry__img_text {
-    width: 200px;
+    min-width: 200px;
     position: absolute;
     bottom: 66px;
     left: 600px;
@@ -34,7 +34,7 @@
 
 .jewellry__img_border {
     position: absolute;
-    width: 230.5px;
+    min-width: 230.5px;
     height: 430.5px;
     border-left: 5px solid #693621;
     border-top: 5px solid #693621;
@@ -43,7 +43,7 @@
 }
 
 .jewellry__img_border2 {
-    width: 197px;
+    min-width: 197px;
     height: 295px;
     position: absolute;
     border-left: 5px solid #693621;
@@ -55,7 +55,7 @@
 .jewellry__img_border3 {
     position: absolute;
     border-top: 5px solid #693621;
-    width: 225px;
+    min-width: 225px;
     left: 894px;
     bottom: 524px;
 }
@@ -63,7 +63,7 @@
 .jewellry__img_border4 {
     position: absolute;
     border-top: 5px solid #693621;
-    width: 158px;
+    min-width: 158px;
     left: 866px;
     bottom: 55px;
 
@@ -72,7 +72,7 @@
 .jewellry__img_btn {
     background-image: url(../resourses/Jewellry/btn.png);
     position: absolute;
-    width: 75px;
+    min-width: 75px;
     height: 93.5px;
     top: 90px;
     right: 59px;
