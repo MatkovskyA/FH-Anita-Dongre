@@ -51,7 +51,6 @@
 .slider {
     position: relative;
     padding: 0px 110px;
-    margin-bottom: 40px;
 }
 
 .slider__item_inner {
@@ -64,7 +63,6 @@
     padding-left: 650px;
     color: #FFEFE0;
     font-size: 50px;
-    font-weight: 500;
 }
 
 .slider__item_inner.item_text1 {
@@ -79,11 +77,9 @@
 .slider__item_inner.item_title2 {
     top: 30px;
     padding-left: 580px;
-    color: #693621;
     text-align: right;
     font-family: Inter;
     font-size: 50px;
-    font-weight: 700;
 }
 
 .slider__item_inner.item_text2 {

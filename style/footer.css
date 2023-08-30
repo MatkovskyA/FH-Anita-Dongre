@@ -28,10 +28,6 @@ li {
     cursor: pointer;
 }
 
-.navig__title {
-    color: #5D3617;
-    text-align: left;
-    font-size: 20px;
-    font-weight: 600;
-    padding-bottom: 18px;
+li:hover {
+    opacity: 0.5;
 }

@@ -1,7 +1,6 @@
 .footwear__wrapper {
     padding-top: 40px;
     background-color: #e7e5e5;
-    margin-bottom: 105px;
 }
 
 .footwear__inner {
@@ -11,13 +10,13 @@
 }
 
 .footwear__img1 {
-    padding-right: 181px;
+    padding-right: 161px;
 }
 
 .footwear__dots {
     position: relative;
     padding-right: 15px;
-    left: -90px;
+    left: -58px;
     top: 257px;
 }
 

@@ -70,7 +70,7 @@ body {
 .container {
     margin: 0 auto;
     width: 1200px;
-    padding: 0 40px;
+    padding: 15px 40px;
 }
 
 h2 {
@@ -81,11 +81,19 @@ h2 {
     font-weight: 600;
 }
 
-h4 {
+p {
     color: rgba(105, 54, 33, 0.50);
     font-family: SF Pro;
     font-size: 20px;
     font-weight: 590;
+}
+
+h3 {
+    color: #5D3617;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 18px;
 }
 
 @media (max-width: 1199px) {
