@@ -1,8 +1,8 @@
 /*фикс ширина у маленьких картинок*/
-
 .anita__dongre_inner {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 30px;
 }
 
 .ready__to_ship,
@@ -22,6 +22,13 @@
     font-weight: 600;
 }
 
+@media (max-width: 1199px) {
+    .name {
+        margin-top: 330px;
+        font-size: 50px;
+    }
+}
+
 .main__img {
     position: relative;
     z-index: 6;
@@ -36,6 +43,13 @@
     cursor: pointer;
 }
 
+@media (max-width: 1199px) {
+    .secondary__img {
+        width: 150px;
+        height: 207px;
+    }
+}
+
 .img3 {
     left: 0;
 }
@@ -48,6 +62,13 @@
     text-align: center;
     font-size: 70px;
     font-weight: 600;
+}
+
+@media (max-width: 1199px) {
+    .title {
+        font-weight: 600;
+        font-size: 50px;
+    }
 }
 
 .text {
@@ -70,6 +91,13 @@
     top: 0;
     z-index: 8;
     transition: 0.5s ease;
+}
+
+@media (max-width: 1199px) {
+    .reduce__foto {
+        width: 150px;
+        height: 207px;
+    }
 }
 
 .img123 {

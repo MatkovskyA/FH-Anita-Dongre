@@ -6,12 +6,28 @@
     margin-bottom: 30px;
 }
 
+@media (max-width: 1199px) {
+    .crafts__wrapper {
+        margin-bottom: 0px;
+        height: 570px;
+    }
+}
+
+
 .crafts__title {
     transform: rotate(-90deg);
     font-size: 70px;
     font-weight: 600;
     text-align: left;
     padding-top: 235px;
+}
+
+@media (max-width: 1199px) {
+    .crafts__title {
+        font-size: 60px;
+        font-weight: 500;
+        padding-top: 185px;
+    }
 }
 
 .crafts__decor {
@@ -23,15 +39,24 @@
 }
 
 .crafts__text {
-    max-width: 338px;
+    max-width: 348px;
     text-align: right;
     position: absolute;
-    padding-top: 420px;
-    left: 230px;
+    top: 420px;
+    left: 155px;
+}
+
+@media (max-width: 1199px) {
+    .crafts__text {
+        max-width: 348px;
+        top: 380px;
+        left: 155px;
+    }
 }
 
 .crafts__inner {
     max-width: 300px;
+    position: relative;
     display: flex;
     flex-direction: column;
     text-align: right;
@@ -44,6 +69,13 @@
     display: flex;
     flex-direction: column;
     position: relative;
+}
+
+@media (max-width: 1199px) {
+    .crafts__image {
+        max-width: 643px;
+        height: 520px;
+    }
 }
 
 .craft__image {

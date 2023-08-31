@@ -22,6 +22,22 @@
     font-weight: 600;
 }
 
+@media (max-width: 1199px) {
+    .jewellry__img_title {
+        left: 560px;
+        font-size: 40px;
+        font-weight: 500;
+    }
+}
+
+/* @media (max-width: 767px) {
+    .jewellry__img_title {
+        left: 500px;
+        font-size: 30px;
+        font-weight: 400;
+    }
+} */
+
 .jewellry__img_text {
     min-width: 200px;
     position: absolute;
@@ -30,6 +46,12 @@
     color: #000;
     font-size: 20px;
     font-weight: 590;
+}
+
+@media (max-width: 1199px) {
+    .jewellry__img_text {
+        left: 560px;
+    }
 }
 
 .jewellry__img_border {
@@ -42,6 +64,15 @@
     left: 80px;
 }
 
+@media (max-width: 1199px) {
+    .jewellry__img_border {
+        min-width: 185px;
+        height: 358.5px;
+        top: 93px;
+        left: 75px;
+    }
+}
+
 .jewellry__img_border2 {
     min-width: 197px;
     height: 295px;
@@ -52,6 +83,15 @@
     bottom: 241px;
 }
 
+@media (max-width: 1199px) {
+    .jewellry__img_border2 {
+        min-width: 172px;
+        height: 295px;
+        left: 75px;
+        bottom: 216px;
+    }
+}
+
 .jewellry__img_border3 {
     position: absolute;
     border-top: 5px solid #693621;
@@ -60,13 +100,28 @@
     bottom: 524px;
 }
 
+@media (max-width: 1199px) {
+    .jewellry__img_border3 {
+        min-width: 193px;
+        left: 798px;
+        bottom: 505px;
+    }
+}
+
 .jewellry__img_border4 {
     position: absolute;
     border-top: 5px solid #693621;
     min-width: 158px;
     left: 866px;
     bottom: 55px;
+}
 
+@media (max-width: 1199px) {
+    .jewellry__img_border4 {
+        min-width: 152px;
+        left: 748px;
+        bottom: 55px;
+    }
 }
 
 .jewellry__img_btn {
@@ -77,4 +132,10 @@
     top: 90px;
     right: 59px;
     cursor: pointer;
+}
+
+@media (max-width: 1199px) {
+    .jewellry__img_btn {
+        top: 50px
+    }
 }

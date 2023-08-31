@@ -65,6 +65,20 @@
     font-size: 50px;
 }
 
+@media (max-width: 1199px) {
+    .slider__item_inner.item_title1 {
+        padding-left: 530px;
+        font-size: 45px;
+    }
+}
+
+/* @media (max-width: 767px) {
+    .slider__item_inner.item_title1 {
+        padding-left: 530px;
+        font-size: 45px;
+    }
+} */
+
 .slider__item_inner.item_text1 {
     bottom: 20px;
     padding-left: 280px;
@@ -74,6 +88,21 @@
     text-decoration-line: underline;
 }
 
+@media (max-width: 1199px) {
+    .slider__item_inner.item_text1 {
+        padding-left: 230px;
+        font-size: 25px;
+        font-weight: 400;
+    }
+}
+
+/* @media (max-width: 767px) {
+    .slider__item_inner.item_text1 {
+        padding-left: 530px;
+        font-size: 45px;
+    }
+} */
+
 .slider__item_inner.item_title2 {
     top: 30px;
     padding-left: 580px;
@@ -81,6 +110,20 @@
     font-family: Inter;
     font-size: 50px;
 }
+
+@media (max-width: 1199px) {
+    .slider__item_inner.item_title2 {
+        padding-left: 480px;
+        font-size: 40px;
+    }
+}
+
+/* @media (max-width: 767px) {
+    .slider__item_inner.item_title2 {
+        padding-left: 530px;
+        font-size: 45px;
+    }
+} */
 
 .slider__item_inner.item_text2 {
     padding-left: 20px;
@@ -91,6 +134,20 @@
     font-weight: 500;
 }
 
+@media (max-width: 1199px) {
+    .slider__item_inner.item_text2 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+}
+
+/* @media (max-width: 767px) {
+    .slider__item_inner.item_text2 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+} */
+
 .slider__item_inner.item_title3 {
     box-sizing: border-box;
     bottom: 150px;
@@ -100,6 +157,21 @@
     font-size: 60px;
     font-weight: 500;
 }
+
+@media (max-width: 1199px) {
+    .slider__item_inner.item_title3 {
+        left: 400px;
+        font-size: 44px;
+        font-weight: 400;
+    }
+}
+
+/* @media (max-width: 767px) {
+    .slider__item_inner.item_title3 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+} */
 
 .title_bold {
     font-weight: 700;
@@ -120,6 +192,21 @@
     background-color: rgba(28, 28, 28, 0);
     cursor: pointer;
 }
+
+@media (max-width: 1199px) {
+    .slider__item_inner.item_btn {
+        left: 540px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+/* @media (max-width: 767px) {
+    .slider__item_inner.item_btn {
+        font-size: 24px;
+        font-weight: 400;
+    }
+} */
 
 
 .slider .slick-arrow {

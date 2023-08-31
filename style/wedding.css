@@ -30,7 +30,7 @@
 .wedding__image {
     position: relative;
     display: flex;
-    height: 413px;
+    max-height: 413px;
     margin-left: 220px;
     transition-duration: 1s;
 }
