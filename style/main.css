@@ -58,7 +58,7 @@ html {
 
 body {
     font-family: SF Pro, Inter;
-    min-width: 1200px;
+
 }
 
 *,
@@ -74,6 +74,10 @@ body {
 }
 
 @media (max-width: 1199px) {
+    body {
+        min-width: 1050px;
+    }
+
     .container {
         max-width: 1050px;
         padding: 10px 30px;
@@ -81,9 +85,12 @@ body {
 }
 
 @media (max-width: 767px) {
+    body {
+        min-width: 766px;
+    }
+
     .container {
-        max-width: 750px;
-        padding: 10px 15px;
+        padding: 10px 10px;
     }
 }
 

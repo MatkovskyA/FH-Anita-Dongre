@@ -8,7 +8,14 @@ $(document).ready(function(){
         dots:true,
         vertical:true
     })
+
+    $('.header__burger').click(function(e) {
+        $('.header__burger, .header__list').toggleClass('active_class');
+        $('body').toggleClass('lock')
+    });
 });
+
+
 
 // блок wedding - отображение блока 
 changeItem()
@@ -128,5 +135,7 @@ function getPrevId() {
 function getNextId() {
     return activeId == (currentDiv.length - 1) ? 0 : activeId + 1;
 }
+
+// header-burger
 
 

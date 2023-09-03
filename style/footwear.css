@@ -23,12 +23,16 @@
     }
 }
 
-/* @media (max-width: 767px) {
+@media (max-width: 767px) {
     .footwear__img1 {
-        max-width: 750px;
-        padding: 10px 15px;
+        max-width: 350px;
     }
-} */
+
+    .footwear__img2 {
+        max-width: 200px;
+    }
+
+}
 
 .footwear__dots {
     position: relative;
