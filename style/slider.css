@@ -474,4 +474,28 @@
         left: -30px;
         bottom: -100px;
     }
+
+    .anita__dongre_inner {
+        display: block;
+        position: relative;
+        margin-top: 100px;
+    }
+
+    .designer__name {
+        position: absolute;
+        top: -80px;
+        left: 30%;
+    }
+
+    .name {
+        transform: rotate(0deg);
+        margin-top: 0;
+    }
+
+    .ready__to_ship {
+        margin-bottom: 20px;
+    }
+
+
+
 }
