@@ -26,7 +26,7 @@
 .slick-arrow.slick-prev {}
 
 Стрелка вправо
-.slick-arrow.slick-next {}
+.slick-arrow.slick-next {}footwear__button
 
 Стрелка не активна
 .slick-arrow.slick-disabled {}
@@ -325,6 +325,10 @@
         height: 500px;
     }
 
+    .active {
+        width: 65%;
+    }
+
     .jewellry__img_title {
         font-size: 50px;
         left: 400px;
@@ -374,6 +378,10 @@
         padding-right: 25px;
     }
 
+    .menswear__title {
+        padding-left: 15px;
+    }
+
     .menswear__slider .slick-dots {
         left: 450px;
         bottom: 150px;
@@ -384,5 +392,86 @@
         bottom: -130px;
     }
 
+    .footwear__dots {
+        display: block;
+    }
 
+    .dots {
+        display: none;
+    }
+
+    .footwear__button {
+        bottom: 20px;
+        left: 270px;
+    }
+
+    .footwear__img1,
+    .footwear__img2 {
+        max-width: 300px;
+    }
+
+    .footwear__img1 {
+        padding-right: 0;
+    }
+
+    .footwear__inner_text {
+        display: block;
+        left: -50px;
+    }
+
+    .footwear__img2 {
+        margin-left: 120px;
+    }
+
+    .inner__text_text {
+        font-size: 25px;
+    }
+
+    .wedding__image {
+        min-height: 310px;
+        margin-left: 10px;
+    }
+
+    .wedding__text {
+        display: none;
+    }
+
+    .wedding__inner {
+        z-index: 10;
+    }
+
+    .wedding__wrapper {
+        margin-bottom: 20px;
+    }
+
+    .crafts__wrapper {
+        height: 500px;
+    }
+
+    .crafts__text,
+    .crafts__dec {
+        display: none;
+    }
+
+    .crafts__image {
+        height: 500px;
+        transform: scale(1.1);
+    }
+
+    .craft__image {
+        left: -20px;
+    }
+
+    .craft__img_dec {
+        left: -40px;
+    }
+
+    .crafts__title {
+        padding-top: 5px;
+    }
+
+    .crafts__inner {
+        left: -30px;
+        bottom: -100px;
+    }
 }

@@ -71,7 +71,7 @@ showTextBtn.addEventListener('click', () => {
 const btnShowBar = document.getElementById('show_bar');
 const btnBlockBar = document.getElementById('block_bar');
 let viewTextDiv = document.getElementById("footwear__inner_text");
-viewTextDiv.style.display = 'none';
+viewTextDiv.style.display = 'block';
 
 const buttons = document.getElementById("footwear__dots");
 const btns = buttons.getElementsByClassName("dots3");
@@ -120,7 +120,7 @@ function init() {
         setActiveSlideById(getNextId());
     });
 }
-// добьавляем активный класс по id
+// добавляем активный класс по id
 function setActiveSlideById(id) {
     const currentId = activeId;
     activeId = id;
