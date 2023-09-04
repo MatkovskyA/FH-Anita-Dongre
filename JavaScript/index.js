@@ -8,11 +8,12 @@ $(document).ready(function(){
         dots:true,
         vertical:true
     })
-
+    // бургер меню
     $('.header__burger').click(function(e) {
         $('.header__burger, .header__list').toggleClass('active_class');
         $('body').toggleClass('lock')
     });
+
 });
 
 

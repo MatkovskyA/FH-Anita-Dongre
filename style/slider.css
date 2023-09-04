@@ -53,12 +53,6 @@
     padding: 149px 110px 0;
 }
 
-@media (max-width: 767px) {
-    .slider {
-        padding: 125px 110px 0px;
-    }
-}
-
 .slider__item_inner {
     position: absolute;
     z-index: 2
@@ -226,12 +220,7 @@
     align-items: center;
 }
 
-@media (max-width: 767px) {
-    .slider .slick-arrow {
-        top: 60%;
-    }
-}
-
+@media (max-width: 767px) {}
 
 .slider .slick-arrow.slick-prev {
     left: 0;
@@ -268,4 +257,132 @@
 
 .slider .slick-dots li.slick-active button {
     background-color: #c28369;
+}
+
+@media (max-width: 767px) {
+    .slider {
+        padding: 125px 0px 0px;
+    }
+
+    .slider__item_inner.item_title1,
+    .slider__item_inner.item_title2,
+    .slider__item_inner.item_title3 {
+        font-size: 50px;
+    }
+
+    .slider__item_inner.item_title2 {
+        padding-left: 20px;
+    }
+
+    .slider__item_inner.item_title1 {
+        padding-left: 480px;
+    }
+
+    .slider .slick-arrow {
+        top: 60%;
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+
+    .luxury__text {
+        font-size: 0;
+        padding-bottom: 20px;
+    }
+
+    .luxury__title {
+        font-size: 55px;
+    }
+
+    .luxury__dresses_img {
+        transform: scale(1.2);
+        top: 20px;
+    }
+
+    .luxury__brown_box {
+        top: -120px;
+        left: -60px;
+    }
+
+    .slider__item_inner.item_text1 {
+        font-size: 35px;
+        padding-left: 150px;
+    }
+
+    .category__title_text {
+        font-size: 30px;
+    }
+
+    /* .category__image_img {
+        height: 500px;
+    } */
+
+    .category__btn_prev,
+    .category__btn_next {
+        width: 13%;
+    }
+
+    .category__items {
+        height: 500px;
+    }
+
+    .jewellry__img_title {
+        font-size: 50px;
+        left: 400px;
+        bottom: 70px;
+    }
+
+    .jewellry__img_img {
+        transform: scale(1.1);
+    }
+
+    .jewellry__img_text {
+        display: none;
+    }
+
+    .jewellry__img_border {
+        width: 0;
+        height: 0;
+    }
+
+    .jewellry__img_border2 {
+        display: none;
+    }
+
+    .jewellry__img_border {
+        border-top: none;
+    }
+
+    .jewellry__img_btn {
+        background-repeat: no-repeat;
+        right: 30px;
+    }
+
+    .menswear__decor,
+    .menswear__text {
+        display: none;
+    }
+
+    element.style {
+        width: 350px;
+    }
+
+    .menswear__slider_item {
+        height: 500px;
+    }
+
+    .menswear__inner {
+        padding-right: 25px;
+    }
+
+    .menswear__slider .slick-dots {
+        left: 450px;
+        bottom: 150px;
+    }
+
+    .menswear__button {
+        position: relative;
+        bottom: -130px;
+    }
+
+
 }
