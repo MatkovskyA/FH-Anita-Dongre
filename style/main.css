@@ -74,20 +74,15 @@ body {
 }
 
 @media (max-width: 1199px) {
-    body {
-        min-width: 1050px;
-    }
 
     .container {
         max-width: 1050px;
         padding: 10px 30px;
+        box-sizing: border-box;
     }
 }
 
 @media (max-width: 767px) {
-    body {
-        min-width: 766px;
-    }
 
     .container {
         padding: 10px 10px;
@@ -106,14 +101,14 @@ h2 {
 @media (max-width: 1199px) {
     h2 {
         font-weight: 500;
-        font-size: 32px;
+        font-size: 26px;
     }
 }
 
 @media (max-width: 767px) {
     h2 {
         font-weight: 400;
-        font-size: 30px;
+        font-size: 26pxpx;
     }
 }
 

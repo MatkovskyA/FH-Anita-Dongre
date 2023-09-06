@@ -67,8 +67,37 @@
 
 @media (max-width: 1199px) {
     .slider__item_inner.item_title1 {
-        padding-left: 530px;
+        left: 0;
+        top: 0;
         font-size: 45px;
+    }
+
+    .slider__item_inner.item_text1 {
+        padding-left: 230px;
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .slider__item_inner.item_title2 {
+        padding-left: 480px;
+        font-size: 40px;
+    }
+
+    .slider__item_inner.item_text2 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .slider__item_inner.item_title3 {
+        left: 400px;
+        font-size: 44px;
+        font-weight: 400;
+    }
+
+    .slider__item_inner.item_btn {
+        left: 540px;
+        font-size: 20px;
+        font-weight: 400;
     }
 }
 
@@ -88,14 +117,6 @@
     text-decoration-line: underline;
 }
 
-@media (max-width: 1199px) {
-    .slider__item_inner.item_text1 {
-        padding-left: 230px;
-        font-size: 25px;
-        font-weight: 400;
-    }
-}
-
 /* @media (max-width: 767px) {
     .slider__item_inner.item_text1 {
         padding-left: 530px;
@@ -111,12 +132,6 @@
     font-size: 50px;
 }
 
-@media (max-width: 1199px) {
-    .slider__item_inner.item_title2 {
-        padding-left: 480px;
-        font-size: 40px;
-    }
-}
 
 /* @media (max-width: 767px) {
     .slider__item_inner.item_title2 {
@@ -134,12 +149,6 @@
     font-weight: 500;
 }
 
-@media (max-width: 1199px) {
-    .slider__item_inner.item_text2 {
-        font-size: 24px;
-        font-weight: 400;
-    }
-}
 
 /* @media (max-width: 767px) {
     .slider__item_inner.item_text2 {
@@ -158,13 +167,6 @@
     font-weight: 500;
 }
 
-@media (max-width: 1199px) {
-    .slider__item_inner.item_title3 {
-        left: 400px;
-        font-size: 44px;
-        font-weight: 400;
-    }
-}
 
 /* @media (max-width: 767px) {
     .slider__item_inner.item_title3 {
@@ -193,14 +195,6 @@
     cursor: pointer;
 }
 
-@media (max-width: 1199px) {
-    .slider__item_inner.item_btn {
-        left: 540px;
-        font-size: 20px;
-        font-weight: 400;
-    }
-}
-
 /* @media (max-width: 767px) {
     .slider__item_inner.item_btn {
         font-size: 24px;
@@ -219,8 +213,6 @@
     height: 50px;
     align-items: center;
 }
-
-@media (max-width: 767px) {}
 
 .slider .slick-arrow.slick-prev {
     left: 0;
@@ -290,7 +282,8 @@
     }
 
     .luxury__title {
-        font-size: 55px;
+        font-size: 30px;
+
     }
 
     .luxury__dresses_img {
@@ -367,27 +360,43 @@
     }
 
     element.style {
-        width: 350px;
+        width: 310px;
     }
 
     .menswear__slider_item {
-        height: 500px;
+        height: 400px;
+        margin-top: 100px;
     }
 
     .menswear__inner {
-        padding-right: 25px;
+        position: relative;
     }
 
     .menswear__title {
         padding-left: 15px;
-    }
-
-    .menswear__slider .slick-dots {
-        left: 450px;
-        bottom: 150px;
+        font-size: 35px;
+        position: absolute;
+        top: -36px;
+        left: -200px;
     }
 
     .menswear__button {
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+
+    }
+
+    .menswear__slider .slick-dots {
+        left: 275px;
+        bottom: 190px;
+    }
+
+    .menswear__slider {
+        min-width: 265px;
+    }
+
+    .menswear__slider_i .menswear__button {
         position: relative;
         bottom: -130px;
     }
@@ -407,7 +416,7 @@
 
     .footwear__img1,
     .footwear__img2 {
-        max-width: 300px;
+        width: 100px;
     }
 
     .footwear__img1 {
@@ -454,25 +463,34 @@
     }
 
     .crafts__image {
-        height: 500px;
-        transform: scale(1.1);
+        height: 440px;
+
     }
 
     .craft__image {
-        left: -20px;
+        left: 30px;
     }
 
     .craft__img_dec {
-        left: -40px;
+        left: 10px;
     }
 
     .crafts__title {
+        font-size: 30px;
         padding-top: 5px;
+        transform: rotate(0deg);
+        position: absolute;
+        top: -150px;
+        white-space: nowrap;
     }
 
     .crafts__inner {
-        left: -30px;
+        left: 24px;
         bottom: -100px;
+    }
+
+    .crafts__button {
+        right: -27px;
     }
 
     .anita__dongre_inner {

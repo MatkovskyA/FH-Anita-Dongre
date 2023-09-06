@@ -57,3 +57,10 @@
     color: #693621;
     background: rgb(255, 255, 255);
 }
+
+
+@media (max-width: 1199px) {
+    .luxury__text {
+        padding-bottom: 14px;
+    }
+}
