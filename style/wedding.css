@@ -54,8 +54,9 @@
 }
 
 @media (max-width: 1199px) {
-    .wedding__image {
-        max-height: 370px;
+
+    .wedding__img1 {
+        height: 100%;
     }
 
     .wedding__text {

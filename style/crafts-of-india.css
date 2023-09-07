@@ -6,52 +6,27 @@
     margin-bottom: 30px;
 }
 
-@media (max-width: 1199px) {
-    .crafts__wrapper {
-        margin-bottom: 0px;
-        height: 570px;
-    }
-}
-
-
 .crafts__title {
     transform: rotate(-90deg);
     font-size: 70px;
     font-weight: 600;
     text-align: left;
-    padding-top: 235px;
-}
-
-@media (max-width: 1199px) {
-    .crafts__title {
-        font-size: 60px;
-        font-weight: 500;
-        padding-top: 185px;
-    }
+    padding-top: 200px;
 }
 
 .crafts__decor {
     max-width: 205px;
-    height: 131px;
     text-align: left;
-    position: relative;
-    padding-top: 108px;
+    position: absolute;
+    bottom: -10px;
 }
 
 .crafts__text {
     max-width: 348px;
     text-align: right;
     position: absolute;
-    top: 420px;
+    bottom: 50px;
     left: 155px;
-}
-
-@media (max-width: 1199px) {
-    .crafts__text {
-        max-width: 348px;
-        top: 380px;
-        left: 155px;
-    }
 }
 
 .crafts__inner {
@@ -59,8 +34,6 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    text-align: right;
-
 }
 
 .crafts__image {
@@ -71,13 +44,6 @@
     position: relative;
 }
 
-@media (max-width: 1199px) {
-    .crafts__image {
-        max-width: 643px;
-        height: 520px;
-    }
-}
-
 .craft__image {
     position: relative;
     z-index: 6;
@@ -86,7 +52,7 @@
 .craft__img_dec {
     max-width: 392px;
     height: 323px;
-    position: relative;
+    position: absolute;
     z-index: 3;
     bottom: 300px;
     left: -20px;
@@ -100,30 +66,119 @@
 }
 
 @media (max-width: 1199px) {
-    .container {
-        width: 1000px;
-        padding: 10px 30px;
-        box-sizing: border-box;
+    .crafts__text {
+        max-width: 348px;
+        bottom: 90px;
+        left: 105px;
     }
-}
 
-@media (max-width: 1000px) {
-    .container {
-        width: 768px;
-        padding: 10px 10px;
+    .crafts__title {
+        font-size: 60px;
+        font-weight: 500;
+        padding-top: 100px;
     }
-}
 
-@media (max-width: 768px) {
-    .container {
-        width: 480px;
-        padding: 10px 10px;
+    .crafts__image {
+        max-width: 643px;
+        height: 424px;
     }
-}
 
-@media (max-width: 480px) {
-    .container {
-        width: 100%;
-        padding: 10px 10px;
+    .crafts__wrapper {
+        margin-bottom: 0px;
+        height: 547px;
     }
-}
+
+    .crafts__decor {
+        bottom: 25px;
+    }
+
+    .craft__img_dec {
+        max-width: 342px;
+        height: 283px;
+        top: -25px;
+    }
+
+    @media (max-width: 1000px) {
+        .crafts__text {
+            max-width: 348px;
+            bottom: 190px;
+            left: 60px;
+            font-size: 16px;
+        }
+
+        .crafts__title {
+            font-size: 40px;
+            font-weight: 500;
+            padding-top: 100px;
+        }
+
+        .crafts__decor {
+            bottom: 105px;
+            max-width: 150px;
+        }
+
+        .crafts__button {
+            bottom: 115px;
+        }
+
+        .crafts__wrapper {
+            height: 536px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .crafts__wrapper {
+            height: 384px;
+            margin-top: 25px;
+        }
+
+        .crafts__text,
+        .crafts__dec {
+            display: none;
+        }
+
+        .crafts__image {
+            height: 440px;
+            width: 90%;
+            flex-direction: row;
+        }
+
+        .craft__image {
+            left: 0;
+            top: 20px;
+            object-position: 50% 50%;
+            object-fit: cover;
+        }
+
+        .craft__img_dec {
+            left: -20px;
+            top: -3px;
+            max-width: 388px;
+            height: 243px;
+        }
+
+        .crafts__title {
+            font-size: 50px;
+            padding-top: 25px;
+            transform: rotate(0deg);
+            position: absolute;
+            top: -160px;
+            white-space: nowrap;
+        }
+
+        .crafts__inner {
+            left: 24px;
+            bottom: -100px;
+        }
+
+        .crafts__button {
+            right: 0;
+            bottom: 0;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .crafts__title {
+            font-size: 30px;
+        }
+    }

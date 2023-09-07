@@ -195,45 +195,7 @@
 @media (max-width: 767px) {
 
 
-    .crafts__wrapper {
-        height: 500px;
-    }
 
-    .crafts__text,
-    .crafts__dec {
-        display: none;
-    }
-
-    .crafts__image {
-        height: 440px;
-
-    }
-
-    .craft__image {
-        left: 30px;
-    }
-
-    .craft__img_dec {
-        left: 10px;
-    }
-
-    .crafts__title {
-        font-size: 30px;
-        padding-top: 5px;
-        transform: rotate(0deg);
-        position: absolute;
-        top: -150px;
-        white-space: nowrap;
-    }
-
-    .crafts__inner {
-        left: 24px;
-        bottom: -100px;
-    }
-
-    .crafts__button {
-        right: -27px;
-    }
 
     .anita__dongre_inner {
         display: block;
