@@ -195,31 +195,6 @@
 @media (max-width: 767px) {
 
 
-
-
-
-
-
-
-
-
-    .wedding__image {
-        min-height: 310px;
-        margin-left: 10px;
-    }
-
-    .wedding__text {
-        display: none;
-    }
-
-    .wedding__inner {
-        z-index: 10;
-    }
-
-    .wedding__wrapper {
-        margin-bottom: 20px;
-    }
-
     .crafts__wrapper {
         height: 500px;
     }

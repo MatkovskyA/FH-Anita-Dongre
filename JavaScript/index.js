@@ -16,16 +16,25 @@ $(document).ready(function(){
 
 });
 
-
-
 // блок wedding - отображение блока 
 changeItem()
 rechangeItem()
 
 function changeItem() {
-    let weddingImageStyle = document.querySelector('.wedding__image').style.left = "-170px";
-    let weddingImageWeight = document.querySelector('.wedding__title').style.width = "230px";
-    return weddingImageStyle, weddingImageWeight
+    if (window.innerWidth >= 769) {
+        let weddingImageStyle = document.querySelector('.wedding__image').style.left = "-170px";
+        let weddingImageWeight = document.querySelector('.wedding__title').style.width = "230px";
+        return weddingImageStyle, weddingImageWeight;
+    } else if (window.innerWidth <= 480) {
+        let weddingImageStyle = document.querySelector('.wedding__image').style.left = "-290px";
+        // let weddingImageWeight = document.querySelector('.wedding__title').style.width = "130px";
+        return weddingImageStyle
+    } else {
+        let weddingImageStyle = document.querySelector('.wedding__image').style.left = "-170px";
+        // let weddingImageWeight = document.querySelector('.wedding__title').style.width = "130px";
+        return weddingImageStyle
+    }
+
 }
 
 function rechangeItem() {
