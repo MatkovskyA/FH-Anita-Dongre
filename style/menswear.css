@@ -14,6 +14,7 @@
     position: relative;
     bottom: 155px;
     padding-left: 17.5px;
+    max-width: 10%;
 }
 
 .menswear__inner {
@@ -73,6 +74,7 @@
     border-radius: 50%;
     background-color: #693621;
     cursor: pointer;
+    margin: 20px;
 }
 
 .menswear__slider .slick-dots li.slick-active button {
@@ -86,4 +88,99 @@
 .menswear__slider_item {
     height: 623px;
     padding-top: 3px;
+}
+
+@media (max-width: 1199px) {
+    .menswear__slider .slick-dots {
+        bottom: 86px;
+        left: 465px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .menswear__text {
+        display: none;
+    }
+
+    .menswear__slider_item {
+        height: 423px;
+    }
+
+    .menswear__decor {
+        bottom: 20px;
+    }
+
+    .menswear__slider .slick-dots {
+        left: 323px;
+    }
+
+    .menswear__title {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .menswear__decor,
+    .menswear__text {
+        display: none;
+    }
+
+    element.style {
+        width: 310px;
+    }
+
+    .menswear__slider_item {
+        height: 400px;
+        margin-top: 100px;
+
+    }
+
+    .menswear__inner {
+        position: relative;
+    }
+
+    .menswear__title {
+        padding-left: 15px;
+        font-size: 40px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .menswear__button {
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+    }
+
+    .menswear__slider .slick-dots {
+        left: 275px;
+        bottom: 190px;
+    }
+
+    .menswear__slider {
+        max-width: 280px;
+    }
+
+    .menswear__slider_i .menswear__button {
+        position: relative;
+        bottom: -130px;
+    }
+}
+
+@media (max-width: 480px) {
+    .menswear__title {
+        padding-top: 0;
+    }
+
+    .menswear__slider .slick-dots button {
+        margin: 10px;
+
+    }
+
+    .menswear__slider .slick-dots {
+        left: 265px;
+    }
+
 }

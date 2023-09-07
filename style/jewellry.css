@@ -126,13 +126,63 @@
     bottom: 55px;
 }
 
-
 .jewellry__img_btn {
     background-image: url(../resourses/Jewellry/btn.png);
     position: absolute;
+    background-repeat: no-repeat;
     width: 75px;
     height: 93.5px;
     top: 90px;
     right: 59px;
     cursor: pointer;
+}
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 1000px) {}
+
+@media (max-width: 768px) {
+
+    .jewellry__img_btn {
+        top: 40px;
+        right: 3px;
+        transform: scale(0.7);
+    }
+
+    .jewellry__img_title {
+        font-size: 50px;
+        left: 400px;
+        bottom: 70px;
+
+    }
+
+    .jewellry__img_img {
+        transform: scale(1.1);
+    }
+
+    .jewellry__img_text {
+        display: none;
+    }
+
+    .jewellry__img_border {
+        width: 0;
+        height: 0;
+    }
+
+    .jewellry__img_border2 {
+        display: none;
+    }
+
+    .jewellry__img_border {
+        border-top: none;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .jewellry__img_btn {
+        top: 20px;
+        right: -10px;
+        transform: scale(0.4);
+    }
 }

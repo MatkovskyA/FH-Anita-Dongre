@@ -24,10 +24,38 @@ li {
     color: rgba(105, 54, 33, 0.50);
     font-size: 15px;
     font-weight: 590;
-    padding-bottom: 17px;
     cursor: pointer;
 }
 
 li:hover {
     opacity: 0.5;
+}
+
+@media (max-width: 1199px) {
+    .container {
+        width: 1000px;
+        padding: 10px 30px;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        width: 768px;
+        padding: 10px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 480px;
+        padding: 10px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 10px 10px;
+    }
 }

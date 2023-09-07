@@ -10,15 +10,18 @@
 	box-sizing: border-box;
 }
 
-a, a:link, a:visited  {
-    text-decoration: none;
+a,
+a:link,
+a:visited {
+	text-decoration: none;
 }
 
-a:hover  {
-    text-decoration: none;
+a:hover {
+	text-decoration: none;
 }
 
-img, svg {
-	max-width: 100%;
+img,
+svg {
+	width: 100%;
 	height: auto;
 }
