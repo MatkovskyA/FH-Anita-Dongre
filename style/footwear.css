@@ -6,57 +6,11 @@
 .footwear__inner {
     display: inline-flex;
     position: relative;
-    justify-content: space-between;
 }
 
 .footwear__img1 {
     padding-right: 161px;
 }
-
-@media (max-width: 1199px) {
-    .footwear__img1 {
-        width: 350px;
-        padding-right: 41px;
-    }
-
-    a {
-        font-size: 16px;
-    }
-
-    .footwear__img2 {
-        width: 300px;
-    }
-
-    .footwear__inner {
-        height: 356px;
-    }
-
-    .dots {
-        width: 10px;
-        height: 30px;
-        border-radius: 5px;
-    }
-
-    .footwear__button {
-        left: 392px;
-        bottom: 40px;
-    }
-}
-
-/* @media (max-width: 767px) {
-    .footwear__img1 {
-        width: 350px;
-    }
-
-    .footwear__img2 {
-        width: 200px;
-    }
-
-    .footwear__dots {
-        padding-right: 25px;
-    }
-
-} */
 
 .footwear__dots {
     position: relative;
@@ -66,7 +20,7 @@
 }
 
 .dots {
-    width: 5px;
+    width: 8px;
     height: 65px;
     background: #693621;
     cursor: pointer;
@@ -91,35 +45,153 @@
 
 .footwear__button {
     position: absolute;
-    left: 462px;
+    right: 440px;
     bottom: 60px;
 }
 
 @media (max-width: 1199px) {
-    .container {
-        width: 1000px;
-        padding: 10px 30px;
-        box-sizing: border-box;
+    .footwear__inner {
+        height: 500px;
+        gap: 50px;
+    }
+
+    .footwear__img1 {
+        max-width: 415px;
+        padding-right: 0;
+    }
+
+    .footwear__img2 {
+        max-width: 415px;
+    }
+
+    .dots {
+        width: 10px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    .footwear__button {
+        right: 340px;
+        bottom: 40px;
+    }
+
+    .footwear__dots {
+        padding-right: 15px;
+        left: 35px;
+        top: 257px;
     }
 }
 
 @media (max-width: 1000px) {
-    .container {
-        width: 768px;
-        padding: 10px 10px;
+    .footwear__inner {
+        position: relative;
+        width: 100%;
+        height: 500px;
+        gap: 50px;
+    }
+
+    .footwear__img1 {
+        position: absolute;
+        max-width: 295px;
+        height: 300px;
+        bottom: 20px;
+        left: 20px;
+    }
+
+    .footwear__img2 {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        height: 300px;
+        max-width: 295px;
+    }
+
+    .footwear__dots {
+        position: absolute;
+        left: 250px;
+    }
+
+    .footwear__dots .dots {
+        display: none;
+    }
+
+    .footwear__button {
+        right: 40px;
     }
 }
 
 @media (max-width: 768px) {
-    .container {
-        width: 480px;
-        padding: 10px 10px;
+
+    .footwear__button {
+        bottom: 20px;
+        right: 30px;
     }
+
+    .footwear__img1,
+    .footwear__img2 {
+        max-width: 220px;
+    }
+
+    .footwear__img1 {
+        padding-right: 0;
+    }
+
+    .footwear__img2 {
+        top: 80px;
+    }
+
+    .inner__text_text {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .inner__text_title {
+        font-size: 55px;
+    }
+
+    .footwear__inner_text {
+        z-index: 20;
+    }
+
 }
 
 @media (max-width: 480px) {
-    .container {
-        width: 100%;
-        padding: 10px 10px;
+
+    .footwear__button {
+        bottom: 20px;
+        right: 20px;
+        z-index: 11;
+    }
+
+    .footwear__img1,
+    .footwear__img2 {
+        transform: scale(0.85);
+        max-width: 180px;
+        height: 240px;
+    }
+
+    .footwear__img1 {
+        left: 0;
+        top: 250px;
+        z-index: 9;
+    }
+
+    .footwear__img2 {
+        top: 130px;
+        z-index: 10;
+        right: 0;
+    }
+
+    .inner__text_text {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .inner__text_title {
+        font-size: 35px;
+    }
+
+    .footwear__wrapper {
+        padding-top: 20px;
     }
 }

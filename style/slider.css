@@ -201,40 +201,7 @@
 
 
 
-    .footwear__dots {
-        display: block;
-    }
 
-    .dots {
-        display: none;
-    }
-
-    .footwear__button {
-        bottom: 20px;
-        left: 270px;
-    }
-
-    .footwear__img1,
-    .footwear__img2 {
-        width: 100px;
-    }
-
-    .footwear__img1 {
-        padding-right: 0;
-    }
-
-    .footwear__inner_text {
-        display: block;
-        left: -50px;
-    }
-
-    .footwear__img2 {
-        margin-left: 120px;
-    }
-
-    .inner__text_text {
-        font-size: 25px;
-    }
 
     .wedding__image {
         min-height: 310px;
