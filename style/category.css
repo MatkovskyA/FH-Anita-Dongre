@@ -207,6 +207,10 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+
+    .category__desc_text {
+        font-size: 34px;
+    }
 }
 
 @media (max-width: 768px) {
