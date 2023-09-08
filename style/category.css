@@ -138,7 +138,7 @@
 .category__desc {
     position: absolute;
     bottom: 50px;
-    left: 20%;
+    left: 15%;
 }
 
 .category__desc :active {
@@ -249,6 +249,10 @@
         object-position: 71%;
     }
 
+    .category__desc_text {
+        font-size: 28px;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -258,6 +262,10 @@
 
     .image_img4 {
         object-position: 65%;
+    }
+
+    .category__desc_text {
+        font-size: 14px;
     }
 
 }
