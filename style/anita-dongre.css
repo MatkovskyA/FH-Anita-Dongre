@@ -22,32 +22,18 @@
     font-weight: 600;
 }
 
-@media (max-width: 1199px) {
-    .name {
-        margin-top: 330px;
-        font-size: 50px;
-    }
-}
-
 .main__img {
     position: relative;
     z-index: 6;
 }
 
 .secondary__img {
-    width: 170px;
-    height: 227px;
+    width: 33%;
+    height: 25%;
     position: absolute;
     top: 0;
     z-index: 6;
     cursor: pointer;
-}
-
-@media (max-width: 1199px) {
-    .secondary__img {
-        width: 150px;
-        height: 207px;
-    }
 }
 
 .img3 {
@@ -62,13 +48,6 @@
     text-align: center;
     font-size: 70px;
     font-weight: 600;
-}
-
-@media (max-width: 1199px) {
-    .title {
-        font-weight: 600;
-        font-size: 50px;
-    }
 }
 
 .text {
@@ -93,42 +72,63 @@
     transition: 0.5s ease;
 }
 
-@media (max-width: 1199px) {
-    .reduce__foto {
-        width: 150px;
-        height: 207px;
-    }
-}
-
 .img123 {
     padding-left: 150px;
 }
 
 @media (max-width: 1199px) {
-    .container {
-        width: 1000px;
-        padding: 10px 30px;
-        box-sizing: border-box;
+    .name {
+        margin-top: 330px;
+        font-size: 50px;
+    }
+
+    .title {
+        font-weight: 600;
+        font-size: 50px;
     }
 }
 
-@media (max-width: 1000px) {
-    .container {
-        width: 768px;
-        padding: 10px 10px;
-    }
-}
+@media (max-width: 1000px) {}
 
 @media (max-width: 768px) {
-    .container {
-        width: 480px;
-        padding: 10px 10px;
+    .anita__dongre_inner {
+        display: block;
+        position: relative;
+        margin-top: 150px;
+    }
+
+    .designer__name {
+        position: absolute;
+        top: -80px;
+        left: 10%;
+    }
+
+    .name {
+        transform: rotate(0deg);
+        margin-top: 0;
+        right: 0;
+    }
+
+    .ready__to_ship {
+        margin-bottom: 20px;
     }
 }
 
 @media (max-width: 480px) {
-    .container {
-        width: 100%;
-        padding: 10px 10px;
+    .anita__dongre_inner {
+        margin-top: 150px;
+    }
+
+    .designer__name {
+
+        top: -60px;
+    }
+
+    .name {
+        font-size: 30px;
+    }
+
+    .text {
+        font-size: 16px;
     }
 }

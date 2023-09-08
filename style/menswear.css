@@ -7,7 +7,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 32px;
 }
 
 .menswear__decor {
@@ -28,18 +27,6 @@
     padding-bottom: 83px;
 }
 
-@media (max-width: 1199px) {
-    .menswear__title {
-        font-size: 60px;
-    }
-}
-
-@media (max-width: 767px) {
-    .container {
-        max-width: 750px;
-        padding: 10px 15px;
-    }
-}
 
 .menswear__text {
     color: #000;
@@ -91,6 +78,10 @@
 }
 
 @media (max-width: 1199px) {
+    .menswear__title {
+        font-size: 60px;
+    }
+
     .menswear__slider .slick-dots {
         bottom: 86px;
         left: 465px;
@@ -107,7 +98,7 @@
     }
 
     .menswear__decor {
-        bottom: 20px;
+        bottom: 40px;
     }
 
     .menswear__slider .slick-dots {

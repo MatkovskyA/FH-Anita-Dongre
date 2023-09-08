@@ -199,9 +199,7 @@
     width: 100%;
 }
 
-@media (max-width: 1199px) {
-    .container {}
-}
+@media (max-width: 1199px) {}
 
 @media (max-width: 1000px) {
     .category__text {

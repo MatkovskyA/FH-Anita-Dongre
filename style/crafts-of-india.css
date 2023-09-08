@@ -101,7 +101,7 @@
     @media (max-width: 1000px) {
         .crafts__text {
             max-width: 348px;
-            bottom: 190px;
+            bottom: 70px;
             left: 60px;
             font-size: 16px;
         }
@@ -113,7 +113,7 @@
         }
 
         .crafts__decor {
-            bottom: 105px;
+            bottom: 15px;
             max-width: 150px;
         }
 
@@ -122,7 +122,7 @@
         }
 
         .crafts__wrapper {
-            height: 536px;
+            height: 450px;
         }
     }
 

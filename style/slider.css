@@ -192,36 +192,9 @@
     object-position: 30% 60%;
 }
 
-@media (max-width: 767px) {
-
-
-
-
-    .anita__dongre_inner {
-        display: block;
-        position: relative;
-        margin-top: 100px;
-    }
-
-    .designer__name {
-        position: absolute;
-        top: -80px;
-        left: 30%;
-    }
-
-    .name {
-        transform: rotate(0deg);
-        margin-top: 0;
-    }
-
-    .ready__to_ship {
-        margin-bottom: 20px;
-    }
-}
-
 @media (max-width: 1199px) {
     .slider {
-        padding: 130px 70px 0px;
+        padding: 140px 70px 0px;
     }
 
     .slider__item_inner.item_title1 {
@@ -246,7 +219,6 @@
     }
 
     .slider__item_inner.item_title3 {
-        bottom: 250px;
         left: 400px;
         font-size: 44px;
         font-weight: 400;

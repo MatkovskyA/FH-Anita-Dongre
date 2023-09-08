@@ -175,31 +175,10 @@ a:hover {
     }
 }
 
-@media (max-width: 1199px) {
-    .container {
-        width: 1000px;
-        padding: 10px 30px;
-        box-sizing: border-box;
-    }
-}
+@media (max-width: 1199px) {}
 
-@media (max-width: 1000px) {
-    .container {
-        width: 768px;
-        padding: 10px 10px;
-    }
-}
+@media (max-width: 1000px) {}
 
-@media (max-width: 768px) {
-    .container {
-        width: 480px;
+@media (max-width: 768px) {}
 
-    }
-}
-
-@media (max-width: 480px) {
-    .container {
-        width: 100%;
-
-    }
-}
+@media (max-width: 480px) {}
