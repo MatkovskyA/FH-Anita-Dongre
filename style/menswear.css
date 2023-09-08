@@ -166,12 +166,6 @@
     }
 
     .menswear__slider .slick-dots button {
-        margin: 10px;
-
+        margin: 5px;
     }
-
-    .menswear__slider .slick-dots {
-        left: 265px;
-    }
-
 }
