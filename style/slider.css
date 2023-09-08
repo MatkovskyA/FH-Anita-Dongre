@@ -293,8 +293,6 @@
         display: none;
     }
 
-    .slider__item_inner.item_title3 {}
-
     .slider .slick-arrow {
         top: 60%;
         border: 2px solid white;
@@ -323,6 +321,4 @@
     .slider__item_inner.item_btn {
         left: 40vw;
     }
-
-    .header__list_size {}
 }
