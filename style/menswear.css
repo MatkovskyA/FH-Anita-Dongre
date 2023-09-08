@@ -168,4 +168,15 @@
     .menswear__slider .slick-dots button {
         margin: 5px;
     }
+
+    .menswear__slider .slick-dots {
+        left: 285px;
+    }
+
+}
+
+@media (max-width: 330px) {
+    .menswear__slider .slick-dots {
+        left: 265px;
+    }
 }
