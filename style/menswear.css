@@ -21,13 +21,13 @@
     padding-right: 40px;
 }
 
-.menswear__title {
+.menswear__inner_title {
     font-size: 90px;
     padding-top: 50px;
     padding-bottom: 83px;
 }
 
-.menswear__text {
+.menswear__inner_text {
     color: #000;
     font-size: 20px;
     font-weight: 590;
@@ -77,7 +77,7 @@
 }
 
 @media (max-width: 1199px) {
-    .menswear__title {
+    .menswear__inner_title {
         font-size: 60px;
     }
 
@@ -88,7 +88,7 @@
 }
 
 @media (max-width: 1000px) {
-    .menswear__text {
+    .menswear__inner_text {
         display: none;
     }
 
@@ -104,7 +104,7 @@
         left: 323px;
     }
 
-    .menswear__title {
+    .menswear__inner_title {
         padding-top: 30px;
     }
 }
@@ -112,7 +112,7 @@
 @media (max-width: 768px) {
 
     .menswear__decor,
-    .menswear__text {
+    .menswear__inner_text {
         display: none;
     }
 
@@ -130,7 +130,7 @@
         position: relative;
     }
 
-    .menswear__title {
+    .menswear__inner_title {
         padding-left: 15px;
         font-size: 40px;
         position: absolute;
@@ -138,7 +138,7 @@
         right: 0;
     }
 
-    .menswear__button {
+    .menswear__inner_button {
         position: absolute;
         bottom: 0;
         right: 10px;
@@ -160,7 +160,7 @@
 }
 
 @media (max-width: 480px) {
-    .menswear__title {
+    .menswear__inner_title {
         padding-top: 0;
     }
 

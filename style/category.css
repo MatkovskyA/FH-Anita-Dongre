@@ -1,46 +1,3 @@
-/* Ограничевающая оболочка 
-.category__slider_items - наш класс слайдера
-
-.slick-list {}
-
-Лента слайдов 
-.slick-track {}
-
-Слайдер
-.slick-slider {}
-
-Слайд
-.slick-slide {}
-
-Активный слайд
-.slick-slide.slick-active {}
-
-Основной слайд 
-.slick-slide.slick-current {}
-
-Слайд по центру 
-.slick-slide.slick-center {}
-
-Стрелка
-.slick-arrow {}
-
-Стрелка влево
-.slick-arrow.slick-prev {}
-
-Стрелка вправо
-.slick-arrow.slick-next {}
-
-Стрелка не активна
-.slick-arrow.slick-disabled {}
-
-Точки 
-.slick-dots {}
-
-.slick-dots li {}
-
-.slick-dots button {} 
-*/
-
 .category {
     margin-bottom: 50px;
 }
@@ -126,7 +83,7 @@
     object-position: 77%;
 }
 
-.category__image {
+.category__items_image {
     width: 25%;
     position: relative;
     transition: all 1s ease-in-out;

@@ -10,7 +10,7 @@ $(document).ready(function(){
     })
     // бургер меню
     $('.header__burger').click(function(e) {
-        $('.header__burger, .header__list').toggleClass('active_class');
+        $('.header__burger, .header__nav_list').toggleClass('active_class');
         $('body').toggleClass('lock')
     });
 
@@ -23,7 +23,7 @@ rechangeItem()
 function changeItem() {
     if (window.innerWidth >= 769) {
         let weddingImageStyle = document.querySelector('.wedding__image').style.left = "-170px";
-        let weddingImageWeight = document.querySelector('.wedding__title').style.width = "230px";
+        let weddingImageWeight = document.querySelector('.wedding__inner_title').style.width = "230px";
         return weddingImageStyle, weddingImageWeight;
     } else if (window.innerWidth <= 480) {
         let weddingImageStyle = document.querySelector('.wedding__image').style.left = "-290px";
@@ -39,7 +39,7 @@ function changeItem() {
 
 function rechangeItem() {
     let weddingImageStyle = document.querySelector('.wedding__image').style.left = "0px";
-    let weddingImageWeight = document.querySelector('.wedding__title').style.width = "460px";
+    let weddingImageWeight = document.querySelector('.wedding__inner_title').style.width = "460px";
     return weddingImageStyle, weddingImageWeight
 }
 
@@ -110,7 +110,7 @@ btnBlockBar.addEventListener('click', blockText)
 
 const btnPrevSlide = document.querySelector('.category__btn_prev');
 const btnNextSlide = document.querySelector('.category__btn_next');
-const currentDiv = Array.from(document.querySelectorAll('.category__image'));
+const currentDiv = Array.from(document.querySelectorAll('.category__items_image'));
 const activeClassname = 'active';
 
 let activeId;

@@ -5,7 +5,7 @@
     margin-bottom: 50px;
 }
 
-.wedding__title {
+.wedding__inner_title {
     color: #5D3617;
     font-size: 70px;
     font-weight: 600;
@@ -17,13 +17,13 @@
     text-shadow: 3px -4px 5px #ffffff;
 }
 
-.wedding__text {
+.wedding__inner_text {
     padding-left: 20px;
     padding-bottom: 151px;
     height: 48px;
 }
 
-.wedding__button {
+.wedding__inner_button {
     position: absolute;
     padding-left: 33px;
 }
@@ -59,7 +59,7 @@
         height: 100%;
     }
 
-    .wedding__text {
+    .wedding__inner_text {
         padding-bottom: 100px;
     }
 }
@@ -69,7 +69,7 @@
         margin-left: 0;
     }
 
-    .wedding__title {
+    .wedding__inner_title {
         font-size: 60px;
     }
 
@@ -77,7 +77,7 @@
         z-index: 8;
     }
 
-    .wedding__text {
+    .wedding__inner_text {
         color: rgb(255, 122, 122);
     }
 }
@@ -93,7 +93,7 @@
         margin-left: 10px;
     }
 
-    .wedding__text {
+    .wedding__inner_text {
         display: none;
     }
 
@@ -105,7 +105,7 @@
         margin-bottom: 20px;
     }
 
-    .wedding__title {
+    .wedding__inner_title {
         font-size: 50px;
         font-weight: 600;
         padding-left: 20px;
@@ -115,7 +115,7 @@
         transition-duration: 1s;
     }
 
-    .wedding__button {
+    .wedding__inner_button {
         right: 0;
         bottom: 0;
         z-index: 8;
@@ -123,7 +123,7 @@
 }
 
 @media (max-width: 480px) {
-    .wedding__title {
+    .wedding__inner_title {
         font-size: 40px;
     }
 }
