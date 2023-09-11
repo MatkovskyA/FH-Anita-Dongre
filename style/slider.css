@@ -73,7 +73,7 @@
 
 .slider__item_inner.item_text1 {
     bottom: 20px;
-    padding-left: 280px;
+    left: 30%;
     color: #FFF;
     font-size: 28px;
     font-weight: 400;
@@ -113,7 +113,7 @@
 
 .slider__item_inner.item_btn {
     display: inline;
-    left: 680px;
+    left: 580px;
     white-space: nowrap;
     padding: 10px 39px;
     bottom: 40px;
@@ -201,7 +201,6 @@
     }
 
     .slider__item_inner.item_text1 {
-        padding-left: 240px;
         font-size: 25px;
         font-weight: 400;
     }
@@ -240,7 +239,6 @@
     }
 
     .slider__item_inner.item_text1 {
-        padding-left: 160px;
         font-size: 25px;
         font-weight: 400;
     }

@@ -109,10 +109,6 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-
-    .category__desc_text {
-        font-size: 34px;
-    }
 }
 
 @media (max-width: 768px) {
@@ -150,10 +146,6 @@
     .image_img4 {
         object-position: 71%;
     }
-
-    .category__desc_text {
-        font-size: 28px;
-    }
 }
 
 @media (max-width: 480px) {
@@ -163,9 +155,5 @@
 
     .image_img4 {
         object-position: 65%;
-    }
-
-    .category__desc_text {
-        font-size: 14px;
     }
 }

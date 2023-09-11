@@ -92,10 +92,18 @@ p {
     font-weight: 590;
 }
 
-h3 {
+h4 {
     color: #5D3617;
     text-align: left;
     font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 18px;
+}
+
+h3 {
+    color: #5D3617;
+    text-align: left;
+    font-size: 34px;
     font-weight: 600;
     padding-bottom: 18px;
 }
@@ -116,10 +124,15 @@ h3 {
         font-size: 18px;
     }
 
-    h3 {
+    h4 {
         font-size: 18px;
         font-weight: 500;
     }
+
+    h3 {
+        font-size: 24px;
+    }
+
 }
 
 @media (max-width: 1000px) {
@@ -139,6 +152,10 @@ h3 {
         font-weight: 400;
         font-size: 16px;
     }
+
+    h3 {
+        font-size: 22px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -152,8 +169,12 @@ h3 {
         font-size: 20px;
     }
 
-    h3 {
+    h4 {
         font-size: 18px;
         padding-bottom: 16px;
+    }
+
+    h3 {
+        font-size: 12px;
     }
 }
