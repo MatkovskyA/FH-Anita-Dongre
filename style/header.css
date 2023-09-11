@@ -91,7 +91,7 @@ a:hover {
         height: 20px;
         z-index: 8;
         right: 10px;
-        top: 70px;
+        top: 90px;
     }
 
     .header__burger::before,
@@ -172,5 +172,11 @@ a:hover {
 
     .header__body_icons img {
         padding-left: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header__body_icons img {
+        padding-left: 10px;
     }
 }
