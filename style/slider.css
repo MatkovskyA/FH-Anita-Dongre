@@ -176,10 +176,7 @@
 }
 
 .slider__item img {
-    /* width: 100vw;
-    min-width: 100vw;*/
     object-fit: cover;
-    /* object-position: 40% 60%; */
     overflow: hidden;
     height: 400px;
 }
@@ -304,7 +301,6 @@
         left: 300px;
         bottom: 20px;
     }
-
 }
 
 @media (max-width: 480px) {

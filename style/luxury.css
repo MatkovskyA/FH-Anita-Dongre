@@ -3,7 +3,6 @@
     height: 420px;
     justify-content: space-between;
     position: relative;
-
 }
 
 .luxury__dresses_img {
@@ -25,7 +24,6 @@
 }
 
 .luxury__img {
-    /* background-color: #792929; */
     padding-right: 25px;
     position: relative;
     height: 300px;
@@ -70,7 +68,6 @@
 
     .luxury__brown_box {
         bottom: 62px;
-
     }
 }
 
@@ -84,12 +81,9 @@
         font-size: 30px;
     }
 
-    .luxury__dresses_img {}
-
     .luxury__brown_box {
         bottom: -15px;
     }
-
 }
 
 @media (max-width: 768px) {
@@ -146,5 +140,4 @@
     .luxury {
         height: 450px;
     }
-
 }

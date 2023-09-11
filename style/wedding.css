@@ -54,7 +54,6 @@
 }
 
 @media (max-width: 1199px) {
-
     .wedding__img1 {
         height: 100%;
     }
@@ -126,5 +125,4 @@
     .wedding__title {
         font-size: 40px;
     }
-
 }

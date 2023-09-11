@@ -138,11 +138,9 @@
     .jewellry__img_text {
         left: 420px;
     }
-
 }
 
 @media (max-width: 768px) {
-
     .jewellry__img_btn {
         top: 40px;
         right: 3px;
@@ -175,7 +173,6 @@
     .jewellry__img_border {
         border-top: none;
     }
-
 }
 
 @media (max-width: 480px) {

@@ -27,7 +27,6 @@
     padding-bottom: 83px;
 }
 
-
 .menswear__text {
     color: #000;
     font-size: 20px;
@@ -172,7 +171,6 @@
     .menswear__slider .slick-dots {
         left: 285px;
     }
-
 }
 
 @media (max-width: 330px) {
