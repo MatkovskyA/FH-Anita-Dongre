@@ -78,6 +78,10 @@
     cursor: pointer;
 }
 
+.jewellry__img_btn:hover {
+    opacity: 0.5;
+}
+
 @media (max-width: 1199px) {
     .jewellry__img_title {
         left: 560px;
