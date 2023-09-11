@@ -44,13 +44,13 @@
     right: 0;
 }
 
-.december__title {
+.anita__dongre_title {
     text-align: center;
     font-size: 70px;
     font-weight: 600;
 }
 
-.december__text {
+.anita__dongre_text {
     border-top: 5px solid #5D3617;
     padding-top: 10px;
 }
@@ -82,7 +82,7 @@
         font-size: 50px;
     }
 
-    .december__title {
+    .anita__dongre_title {
         font-weight: 600;
         font-size: 50px;
     }
@@ -127,7 +127,7 @@
         font-size: 30px;
     }
 
-    .december__text {
+    .anita__dongre_text {
         font-size: 16px;
     }
 }
