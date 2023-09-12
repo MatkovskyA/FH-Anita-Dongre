@@ -22,7 +22,7 @@
 .dots {
     width: 8px;
     height: 65px;
-    background: #693621;
+    background: var(--brown);
     cursor: pointer;
 }
 
@@ -140,7 +140,7 @@
     }
 
     .inner__text_text {
-        font-size: 15px;
+
         text-align: left;
     }
 
@@ -180,7 +180,7 @@
     }
 
     .inner__text_text {
-        font-size: 15px;
+
         text-align: left;
     }
 

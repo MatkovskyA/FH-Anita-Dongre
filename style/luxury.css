@@ -36,7 +36,6 @@
 }
 
 .luxury__text {
-    font-size: 20px;
     padding-bottom: 54px;
 }
 
@@ -51,13 +50,15 @@
     align-items: center;
     font-size: 30px;
     color: white;
-    background-color: #693621;
+    background-color: var(--brown);
+    ;
     cursor: pointer;
-    border: 3px solid #693621;
+    border: 3px solid var(--brown);
+    ;
 }
 
 .btn:hover {
-    color: #693621;
+    color: var(--brown);
     background: rgb(255, 255, 255);
 }
 

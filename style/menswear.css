@@ -28,8 +28,7 @@
 }
 
 .menswear__inner_text {
-    color: #000;
-    font-size: 20px;
+    color: var(--pBlack);
     font-weight: 590;
     padding-bottom: 92px;
 }
@@ -59,7 +58,7 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: #693621;
+    background-color: var(--brown);
     cursor: pointer;
     margin: 20px;
 

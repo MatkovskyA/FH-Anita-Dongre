@@ -50,7 +50,7 @@ a {
     font-size: 24px;
     line-height: 24px;
     text-decoration: none;
-    color: #693621;
+    color: var(--brown);
     box-sizing: border-box;
 }
 
@@ -97,7 +97,7 @@ a:hover {
     .header__burger::before,
     .header__burger::after {
         content: "";
-        background-color: #693621;
+        background-color: var(--brown);
         position: absolute;
         width: 40px;
         height: 3px;
@@ -114,7 +114,7 @@ a:hover {
 
     .header__burger span {
         position: absolute;
-        background-color: #693621;
+        background-color: var(--brown);
         width: 25px;
         height: 3px;
         top: 8.5px;
