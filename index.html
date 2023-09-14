@@ -18,18 +18,19 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="container container__absolute">
+    <header>
+        <div class="container container__burger">
             <div class="header__body">
                 <a href="#"><img src="resourses/Header/anita-dongre_owler_20201204_225432_large1.svg" alt="Logo"
                         class="header__body_logo">
                 </a>
-                <ul class="header__body_icons">
-                    <li><a href="#" class="icons__none"><img src="resourses/Header/Vector.svg" alt="Vector"></a></li>
-                    <li><a href="#"><img src="resourses/Header/WhatsApp.svg" alt="WhatsApp"></a></li>
-                    <li><a href="#" class="icons__none"><img src="resourses/Header/User.svg" alt="User"></a></li>
-                    <li><a href="#"><img src="resourses/Header/ShoppingBag.svg" alt="Shopping Bag"></a></li>
-                    <li><a href="#"><img src="resourses/Header/Favorite.svg" alt="Favorite"></a></li>
+                <ul>
+                    <li class="icons__none"><a href="#"><img src="resourses/Header/Vector.svg" alt="Vector"></a></li>
+                    <li><a href="#"><img class="img_right" src="resourses/Header/WhatsApp.svg" alt="WhatsApp"></a></li>
+                    <li class="icons__none"><a href="#"><img src="resourses/Header/User.svg" alt="User"></a></li>
+                    <li><a href="#"><img class="img_right" src="resourses/Header/ShoppingBag.svg"
+                                alt="Shopping Bag"></a></li>
+                    <li><a href="#"><img class="img_right" src="resourses/Header/Favorite.svg" alt="Favorite"></a></li>
                 </ul>
             </div>
             <nav class="header__nav">
@@ -52,257 +53,284 @@
     </header>
 
     <main>
-        <div class="container">
-            <section class="slider">
-                <div class="slider__item">
-                    <img src="resourses/Photo-container/Loved-by-animals.png" class="slider__item_position"
-                        alt="Lady in red dress with a horse">
-                    <h2 class="slider__item_inner item_title1">“loved by<br>animals”</h2>
-                    <p class="slider__item_inner item_text1">Introducing Vegan Accessories</p>
-                </div>
-                <div class="slider__item">
-                    <img src="resourses/Photo-container/The-bridal-edit.png" alt="Lady in white dress">
-                    <h2 class="slider__item_inner item_title2">THE BRIDAL<br>edit.</h2>
-                    <p class="slider__item_inner item_text2">handcrafted lehengas<br>for every bride</p>
-                </div>
-                <div class="slider__item">
-                    <img src="resourses/Photo-container/Ready-to-ship.png" class="slider__item_position2"
-                        alt="Lady in purple dress">
-                    <div class="slider__item_inner">
-                        <h2 class="slider__item_inner item_title3">ready to<br><span class="title_bold">SHIP</span></h2>
-                        <button class="slider__item_inner item_btn">Shop Now</button>
+        <section class="section__slider">
+            <div class="container">
+                <div class="slider">
+                    <div class="slider__item">
+                        <img src="resourses/Photo-container/Loved-by-animals.png" class="slider__item_position"
+                            alt="Lady in red dress with a horse">
+                        <h2 class="slider__item_inner item_title1">“loved by<br>animals”</h2>
+                        <p class="slider__item_inner item_text1">Introducing Vegan Accessories</p>
                     </div>
-                </div>
-            </section>
-        </div>
-
-        <section class="luxury container">
-            <div class="luxury__wrapper ">
-                <h2 class="luxury__title" id="luxury__title">CONSCIOUS LUXURY <br>FOR YOU</h2>
-                <p class="luxury__text">At Anita Dongre, we design elegant,<br> effortless pieces that suit every
-                    occasion.<br> All our creations are rooted in conscious<br> luxury, and contemporary
-                    interpretations
-                    of craft.</p>
-                <div class="luxury__button">
-                    <button class="luxury__btn btn">Shop Now</button>
-                </div>
-            </div>
-            <div class="luxury__img">
-                <img src="resourses/Luxury-for-you/Snapinsta3.png" class="luxury__dresses_img"
-                    alt="3 ladyes in dresses">
-                <img src="resourses/Luxury-for-you/Rectangle2.png" class="luxury__brown_box" alt="brown box">
-            </div>
-        </section>
-
-        <section class="category container">
-            <div class="category__title">
-                <p class="category__title_text">Shop By Category</p>
-            </div>
-            <div class="category__wrapper">
-                <button class="category__btn_prev"></button>
-                <h2 class="category__text">READY <span class="category__text__wear"> to wear </span></h2>
-                <button class="category__btn_next"></button>
-            </div>
-            <div class="category__items">
-                <div class="category__items_image">
-                    <img class="category__image_img image_img1" src="resourses/shopByCategory/Reddress.png"
-                        alt="Lady in red dress">
-                    <div class="category__desc">
-                        <h3 class="category__desc_text">Saree</h3>
+                    <div class="slider__item">
+                        <img src="resourses/Photo-container/The-bridal-edit.png" alt="Lady in white dress">
+                        <h2 class="slider__item_inner item_title2">THE BRIDAL<br>edit.</h2>
+                        <p class="slider__item_inner item_text2">handcrafted lehengas<br>for every bride</p>
                     </div>
-                </div>
-                <div class="category__items_image">
-                    <img class="category__image_img image_img2" src="resourses/shopByCategory/Greendress.png"
-                        alt="Lady in long green dress">
-                    <div class="category__desc">
-                        <h3 class="category__desc_text">Sets</h3>
-                    </div>
-                </div>
-                <div class="category__items_image">
-                    <img class="category__image_img image_img3" src="resourses/shopByCategory/Blackdress.png"
-                        alt="Lady in black dress">
-                    <div class="category__desc">
-                        <h3 class="category__desc_text">Kurta Sets</h3>
-                    </div>
-                </div>
-                <div class="category__items_image">
-                    <img class="category__image_img image_img4" src="resourses/shopByCategory/greensuit.png"
-                        alt="Lady in green dress">
-                    <div class="category__desc">
-                        <h3 class="category__desc_text">Dresses</h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="jewellry container" id="jewellry">
-            <div class="jewellry__wrapper">
-                <div class="jewellry__img">
-                    <img src="resourses/Jewellry/original.png" class="jewellry__img_img" alt="Lady with jewellry">
-                    <div class="jewellry__img_border" id="jewellry__border_visible"></div>
-                    <button class="jewellry__img_btn" id="jewellry__btn"></button>
-                    <div class="jewellry__img_inner" id="jewellry__inner" style="display: none;">
-                        <h2 class="jewellry__img_title">TIMELESS<br>STATEMENTS</h2>
-                        <div class="jewellry__img_text">Handcrafted jewelry<br>
-                            for every celebrations</div>
-                        <div class="jewellry__img_border2"></div>
-                        <div class="jewellry__img_border3"></div>
-                        <div class="jewellry__img_border4"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="menswear container">
-            <div class="menswear__wrapper">
-                <div class="menswear__slider">
-                    <div class="menswear__slider_item">
-                        <img src="resourses/Menswear/foto1.png" class="menswear__img1" alt="Mens wear classic">
-                    </div>
-                    <div class="menswear__slider_item">
-                        <img src="resourses/Menswear/foto2.png" class="menswear__img1" alt="Mens wear classic">
-                    </div>
-                </div>
-                <img src="resourses/Menswear/decor.svg" class="menswear__decor" alt="decor">
-                <div class="menswear__inner">
-                    <h2 class="menswear__inner_title" id="men">MENSWEAR<br>CLASSICS</h2>
-                    <p class="menswear__inner_text">Contemporary sherwanis and embroiderd<br>nehru jackets to brighten
-                        every
-                        occasion</p>
-                    <div class="menswear__inner_button">
-                        <button class="menswear__btn btn">Shop Now</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="footwear container">
-            <div class="footwear__wrapper">
-                <div class="footwear__inner">
-                    <img src="resourses/Footwear/image8.png" class="footwear__img1" alt="Sandals">
-                    <div class="footwear__dots" id="footwear__dots">
-                        <div class="footwear__inner_text" id="footwear__inner_text">
-                            <h2 class="inner__text_title">FOOTWEAR</h2>
-                            <p class="inner__text_text">Take your steps to a kinder planet<br>
-                                with our exquisite collection of<br>
-                                vegan and cruelty free footwear<br>
-                                that cherishes nature in both<br>
-                                its inspiration and purpose.<br>
-                            </p>
+                    <div class="slider__item">
+                        <img src="resourses/Photo-container/Ready-to-ship.png" class="slider__item_position2"
+                            alt="Lady in purple dress">
+                        <div class="slider__item_inner">
+                            <h2 class="slider__item_inner item_title3">ready to<br><span class="title_bold">SHIP</span>
+                            </h2>
+                            <button class="slider__item_inner item_btn">Shop Now</button>
                         </div>
-                        <button class="footwears__btn_active dots" type="submit" id="block_bar"></button>
-                        <button class="dots" type="submit" id="show_bar"></button>
-                    </div>
-                    <div class="footwear__button">
-                        <button class="footwear_btn btn">Shop Now</button>
-                    </div>
-                    <img src="resourses/Footwear/image9.png" class="footwear__img2" alt="Sandals">
-                </div>
-            </div>
-        </section>
-
-        <section class="wedding container">
-            <div class="wedding__wrapper">
-                <div class="wedding__inner">
-                    <h2 class="wedding__inner_title" id="wedding">The Wedding<br>edit</h2>
-                    <p class="wedding__inner_text">Timeless lehengas handcrafted in<br>Pichhwari, Bandhani and
-                        Benarasi
-                    </p>
-                    <div class="wedding__inner_button">
-                        <button class="wedding__btn btn">Shop Now</button>
-                    </div>
-                </div>
-                <div class="wedding__image" onmouseover="changeItem()" onmouseout="rechangeItem()">
-                    <img src="resourses/Weading/image4.png" class="wedding__img1" alt="Lady in red dress">
-                    <img src="resourses/Weading/Group5.png" class="wedding__decor" alt="Decor">
-                    <img src="resourses/Weading/image5.png" class="wedding__img2" alt="Lady in red dress">
-                </div>
-            </div>
-        </section>
-
-        <section class="crafts__of_india container">
-            <div class="crafts__wrapper">
-                <div class="crafts__inner">
-                    <h2 class="crafts__inner_title">CRAFTS OF INDIA</h2>
-                    <p class="crafts__inner_text">Timeless crafts of<br>
-                        Bhujodi,Maheswari<br> and Ajrakh<br>
-                        translated into<br>
-                        contemporary<br>
-                        ensembles.</p>
-                    <div class="crafts__decor">
-                        <img src="resourses/CraftsInfdia/Group.png" class="crafts__dec" alt="Decor">
-                    </div>
-                </div>
-                <div class="crafts__image">
-                    <img src="resourses/CraftsInfdia/image1.png" class="craft__image" alt="">
-                    <img src="resourses/CraftsInfdia/Rectangle2.png" class="craft__img_dec" alt="Decor">
-                    <div class="crafts__button">
-                        <button class="crafts__btn btn">Shop Now</button>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="anita__dongre container" id="about">
-            <div class="anita__dongre_inner">
-                <div class="ready__to_ship">
-                    <img src="resourses/Ready-to-ship/image2.png" class="main__img" alt="Lady in green dress">
-                    <img src="resourses/Ready-to-ship/image3.png" class="secondary__img img3" alt="Lady in blue suit">
-                    <h2 class="anita__dongre_title">Ready To Ship</h2>
-                    <p class="anita__dongre_text">A curated collection of occasion and<br>
-                        everyday styles.</p>
+        <section class="luxury">
+            <div class="container">
+                <div class="luxury__wrapper ">
+                    <div class="luxury__wrapper_inner">
+                        <h2 class="luxury__title" id="luxury__title">CONSCIOUS LUXURY <br>FOR YOU</h2>
+                        <p class="luxury__text">At Anita Dongre, we design elegant,<br> effortless pieces that suit
+                            every
+                            occasion.<br> All our creations are rooted in conscious<br> luxury, and contemporary
+                            interpretations
+                            of craft.</p>
+                        <div class="luxury__button">
+                            <button class="luxury__btn btn">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="luxury__img">
+                        <img src="resourses/Luxury-for-you/Snapinsta3.png" class="luxury__dresses_img"
+                            alt="3 ladyes in dresses">
+                        <!-- <img src="resourses/Luxury-for-you/Rectangle2.png" class="luxury__brown_box" alt="brown box"> -->
+                    </div>
                 </div>
-                <div class="designer__name">
-                    <h2 class="designer__name_name">ANITA DONGRE</h2>
+            </div>
+        </section>
+
+        <section class="category">
+            <div class="container">
+                <div class="category__title">
+                    <p class="category__title_text">Shop By Category</p>
                 </div>
-                <div class="december">
-                    <img id="dec-img" src="resourses/December/image11.png" class="main__img" alt="Lady in red dress">
-                    <img id="dec-img2" src="resourses/December/image12.png" class="secondary__img img12"
-                        alt="Lady in green suit">
-                    <h2 class="anita__dongre_title">It’s December</h2>
-                    <p class="anita__dongre_text">Signature wear in kaleidoscope colors,<br>
-                        nocturnal blooms and swaying silhouettes. </p>
+                <div class="category__wrapper">
+                    <button class="category__btn_prev"></button>
+                    <h2 class="category__text">READY <span class="category__text__wear"> to wear </span></h2>
+                    <button class="category__btn_next"></button>
+                </div>
+                <div class="category__items">
+                    <div class="category__items_image">
+                        <img class="category__image_img image_img1" src="resourses/shopByCategory/Reddress.png"
+                            alt="Lady in red dress">
+                        <div class="category__desc">
+                            <h3 class="category__desc_text">Saree</h3>
+                        </div>
+                    </div>
+                    <div class="category__items_image">
+                        <img class="category__image_img image_img2" src="resourses/shopByCategory/Greendress.png"
+                            alt="Lady in long green dress">
+                        <div class="category__desc">
+                            <h3 class="category__desc_text">Sets</h3>
+                        </div>
+                    </div>
+                    <div class="category__items_image">
+                        <img class="category__image_img image_img3" src="resourses/shopByCategory/Blackdress.png"
+                            alt="Lady in black dress">
+                        <div class="category__desc">
+                            <h3 class="category__desc_text">Kurta Sets</h3>
+                        </div>
+                    </div>
+                    <div class="category__items_image">
+                        <img class="category__image_img image_img4" src="resourses/shopByCategory/greensuit.png"
+                            alt="Lady in green dress">
+                        <div class="category__desc">
+                            <h3 class="category__desc_text">Dresses</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="jewellry" id="jewellry">
+            <div class="container">
+                <div class="jewellry__wrapper">
+                    <div class="jewellry__img">
+                        <img src="resourses/Jewellry/original.png" class="jewellry__img_img" alt="Lady with jewellry">
+                        <div class="jewellry__img_border" id="jewellry__border_visible"></div>
+                        <button class="jewellry__img_btn" id="jewellry__btn"></button>
+                        <div class="jewellry__img_inner" id="jewellry__inner" style="display: none;">
+                            <h2 class="jewellry__img_title">TIMELESS<br>STATEMENTS</h2>
+                            <div class="jewellry__img_text">Handcrafted jewelry<br>
+                                for every celebrations</div>
+                            <div class="jewellry__img_border2"></div>
+                            <div class="jewellry__img_border3"></div>
+                            <div class="jewellry__img_border4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="menswear">
+            <div class="container">
+                <div class="menswear__wrapper">
+                    <div class="menswear__slider">
+                        <div class="menswear__slider_item">
+                            <img src="resourses/Menswear/foto1.png" class="menswear__img1" alt="Mens wear classic">
+                        </div>
+                        <div class="menswear__slider_item">
+                            <img src="resourses/Menswear/foto2.png" class="menswear__img1" alt="Mens wear classic">
+                        </div>
+                    </div>
+                    <img src="resourses/Menswear/decor.svg" class="menswear__decor" alt="decor">
+                    <div class="menswear__inner">
+                        <h2 class="menswear__inner_title" id="men">MENSWEAR<br>CLASSICS</h2>
+                        <p class="menswear__inner_text">Contemporary sherwanis and embroiderd<br>nehru jackets to
+                            brighten
+                            every
+                            occasion</p>
+                        <div class="menswear__inner_button">
+                            <button class="menswear__btn btn">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footwear">
+            <div class="container">
+                <div class="footwear__wrapper">
+                    <div class="footwear__inner">
+                        <img src="resourses/Footwear/image8.png" class="footwear__img1" alt="Sandals">
+                        <div class="footwear__dots" id="footwear__dots">
+                            <div class="footwear__inner_text" id="footwear__inner_text">
+                                <h2 class="inner__text_title">FOOTWEAR</h2>
+                                <p class="inner__text_text">Take your steps to a kinder planet<br>
+                                    with our exquisite collection of<br>
+                                    vegan and cruelty free footwear<br>
+                                    that cherishes nature in both<br>
+                                    its inspiration and purpose.<br>
+                                </p>
+                            </div>
+                            <button class="footwears__btn_active dots" type="submit" id="block_bar"></button>
+                            <button class="dots" type="submit" id="show_bar"></button>
+                        </div>
+                        <div class="footwear__button">
+                            <button class="footwear_btn btn">Shop Now</button>
+                        </div>
+                        <img src="resourses/Footwear/image9.png" class="footwear__img2" alt="Sandals">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="wedding">
+            <div class="container">
+                <div class="wedding__wrapper">
+                    <div class="wedding__inner">
+                        <h2 class="wedding__inner_title" id="wedding">The Wedding<br>edit</h2>
+                        <p class="wedding__inner_text">Timeless lehengas handcrafted in<br>Pichhwari, Bandhani and
+                            Benarasi
+                        </p>
+                        <div class="wedding__inner_button">
+                            <button class="wedding__btn btn">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="wedding__image" onmouseover="changeItem()" onmouseout="rechangeItem()">
+                        <img src="resourses/Weading/image4.png" class="wedding__img1" alt="Lady in red dress">
+                        <img src="resourses/Weading/Group5.png" class="wedding__decor" alt="Decor">
+                        <img src="resourses/Weading/image5.png" class="wedding__img2" alt="Lady in red dress">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="crafts__of_india">
+            <div class="container">
+                <div class="crafts__wrapper">
+                    <div class="crafts__inner">
+                        <h2 class="crafts__inner_title">CRAFTS OF INDIA</h2>
+                        <p class="crafts__inner_text">Timeless crafts of<br>
+                            Bhujodi,Maheswari<br> and Ajrakh<br>
+                            translated into<br>
+                            contemporary<br>
+                            ensembles.</p>
+                        <div class="crafts__decor">
+                            <img src="resourses/CraftsInfdia/Group.png" class="crafts__dec" alt="Decor">
+                        </div>
+                    </div>
+                    <div class="crafts__image">
+                        <img src="resourses/CraftsInfdia/image1.png" class="craft__image" alt="">
+                        <img src="resourses/CraftsInfdia/Rectangle2.png" class="craft__img_dec" alt="Decor">
+                        <div class="crafts__button">
+                            <button class="crafts__btn btn">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="anita__dongre" id="about">
+            <div class="container">
+                <div class="anita__dongre_inner">
+                    <div class="ready__to_ship">
+                        <img src="resourses/Ready-to-ship/image2.png" class="main__img" alt="Lady in green dress">
+                        <img src="resourses/Ready-to-ship/image3.png" class="secondary__img img3"
+                            alt="Lady in blue suit">
+                        <h2 class="anita__dongre_title">Ready To Ship</h2>
+                        <p class="anita__dongre_text">A curated collection of occasion and<br>
+                            everyday styles.</p>
+                    </div>
+                    <div class="designer__name">
+                        <h2 class="designer__name_name">ANITA DONGRE</h2>
+                    </div>
+                    <div class="december">
+                        <img id="dec-img" src="resourses/December/image11.png" class="main__img"
+                            alt="Lady in red dress">
+                        <img id="dec-img2" src="resourses/December/image12.png" class="secondary__img img12"
+                            alt="Lady in green suit">
+                        <h2 class="anita__dongre_title">It’s December</h2>
+                        <p class="anita__dongre_text">Signature wear in kaleidoscope colors,<br>
+                            nocturnal blooms and swaying silhouettes. </p>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="footer container">
-        <div class="footer__inner">
-            <div class="costumer__care">
-                <h4>COSTUMER CARE</h4>
-                <ul class="costum">
-                    <li>Orders & Shipment</li>
-                    <li>Returns & Exchange</li>
-                    <li>Contact Us</li>
-                    <li>FAQs</li>
-                    <li>Check Gift Card Balance</li>
-                </ul>
-            </div>
-            <div class="about__us">
-                <h4>ABOUT US</h4>
-                <ul class="about">
-                    <li>Anita Dongre Foundation</li>
-                    <li>Sustainability</li>
-                    <li>Careers</li>
-                </ul>
-            </div>
-            <div class="categories">
-                <h4>CATEGORIES</h4>
-                <ul class="categories_ul">
-                    <li>Orders & Shipment</li>
-                    <li>Returns & Exchange</li>
-                    <li>Contact Us</li>
-                </ul>
-            </div>
-            <div class="legal">
-                <h4>LEGAL</h4>
-                <ul class="legal__ul">
-                    <li>Corporate Information</li>
-                    <li>Terms& Condition</li>
-                    <li>Privacy Policy</li>
-                    <li>Cookie Policy</li>
-                </ul>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="costumer__care">
+                    <h4>COSTUMER CARE</h4>
+                    <ul class="costum">
+                        <li>Orders & Shipment</li>
+                        <li>Returns & Exchange</li>
+                        <li>Contact Us</li>
+                        <li>FAQs</li>
+                        <li>Check Gift Card Balance</li>
+                    </ul>
+                </div>
+                <div class="about__us">
+                    <h4>ABOUT US</h4>
+                    <ul class="about">
+                        <li>Anita Dongre Foundation</li>
+                        <li>Sustainability</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+                <div class="categories">
+                    <h4>CATEGORIES</h4>
+                    <ul class="categories_ul">
+                        <li>Orders & Shipment</li>
+                        <li>Returns & Exchange</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="legal">
+                    <h4>LEGAL</h4>
+                    <ul class="legal__ul">
+                        <li>Corporate Information</li>
+                        <li>Terms& Condition</li>
+                        <li>Privacy Policy</li>
+                        <li>Cookie Policy</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>

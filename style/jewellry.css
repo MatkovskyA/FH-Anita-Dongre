@@ -1,5 +1,4 @@
 .jewellry__wrapper {
-    position: relative;
     overflow: hidden;
 }
 
@@ -33,12 +32,10 @@
 
 .jewellry__img_border {
     position: absolute;
-    width: 230.5px;
-    height: 430.5px;
+    width: 228px;
+    height: 425px;
     border-left: 5px solid var(--brown);
-    ;
     border-top: 5px solid var(--brown);
-    ;
     top: 74px;
     left: 80px;
 }
@@ -58,9 +55,8 @@
 .jewellry__img_border3 {
     position: absolute;
     border-top: 5px solid var(--brown);
-    ;
-    width: 222px;
-    left: 880px;
+    width: 216px;
+    left: 872px;
     bottom: 524px;
 }
 
@@ -69,7 +65,7 @@
     border-top: 5px solid var(--brown);
     ;
     width: 158px;
-    left: 848px;
+    left: 835px;
     bottom: 55px;
 }
 

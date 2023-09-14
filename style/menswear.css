@@ -5,14 +5,14 @@
 .menswear__wrapper {
     position: relative;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
 .menswear__decor {
     position: relative;
     bottom: 155px;
-    padding-left: 17.5px;
+    margin-left: 17px;
+    margin-right: 10px;
     max-width: 10%;
 }
 
@@ -23,14 +23,14 @@
 
 .menswear__inner_title {
     font-size: 90px;
-    padding-top: 50px;
-    padding-bottom: 83px;
+    margin-top: 50px;
+    margin-bottom: 83px;
 }
 
 .menswear__inner_text {
     color: var(--pBlack);
     font-weight: 590;
-    padding-bottom: 92px;
+    margin-bottom: 92px;
 }
 
 /* стили слайдера */
@@ -83,7 +83,7 @@
     }
 
     .menswear__slider .slick-dots {
-        bottom: 86px;
+        bottom: 76px;
         left: 465px;
     }
 }
@@ -102,11 +102,11 @@
     }
 
     .menswear__slider .slick-dots {
-        left: 323px;
+        left: 285px;
     }
 
     .menswear__inner_title {
-        padding-top: 30px;
+        margin-top: 30px;
     }
 }
 
@@ -132,7 +132,7 @@
     }
 
     .menswear__inner_title {
-        padding-left: 15px;
+        margin-left: 15px;
         font-size: 40px;
         position: absolute;
         top: 0;
@@ -162,7 +162,7 @@
 
 @media (max-width: 480px) {
     .menswear__inner_title {
-        padding-top: 0;
+        margin-top: 0;
     }
 
     .menswear__slider .slick-dots button {

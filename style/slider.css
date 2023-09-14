@@ -52,7 +52,7 @@
     width: 100%;
     box-sizing: border-box;
     position: relative;
-    padding: 165px 110px 0;
+    padding: 0px 110px 0;
 }
 
 .slider__item {
@@ -129,7 +129,7 @@
 
 .slider .slick-arrow {
     position: absolute;
-    top: 60%;
+    top: 50%;
     margin-top: -40px;
     z-index: 7;
     font-size: 0;
@@ -191,7 +191,7 @@
 
 @media (max-width: 1199px) {
     .slider {
-        padding: 165px 70px 0px;
+        padding: 0px 70px 0px;
     }
 
     .slider__item_inner.item_title1 {
@@ -229,7 +229,7 @@
 
 @media (max-width: 1000px) {
     .slider {
-        padding: 130px 60px 0px;
+        padding: 0px 60px 0px;
     }
 
     .slider__item_inner.item_title1 {
@@ -302,6 +302,9 @@
 }
 
 @media (max-width: 480px) {
+    .slider {
+        padding: 0px 0px 0px;
+    }
 
     .slider__item_inner.item_title1,
     .slider__item_inner.item_title2 {
