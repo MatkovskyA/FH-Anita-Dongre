@@ -37,9 +37,8 @@
     text-align: center;
 }
 
-.inner__text_title {
+.footwear__inner_text h2 {
     font-size: 70px;
-    font-weight: 600;
 }
 
 .footwear__button {
@@ -138,11 +137,11 @@
         top: 31px;
     }
 
-    .inner__text_text {
+    .footwear__inner_text p {
         text-align: left;
     }
 
-    .inner__text_title {
+    .footwear__inner_text h2 {
         font-size: 55px;
     }
 
@@ -177,7 +176,7 @@
         right: 0;
     }
 
-    .inner__text_title {
+    .footwear__inner_text h2 {
         font-size: 35px;
     }
 

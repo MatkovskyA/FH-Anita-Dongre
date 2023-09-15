@@ -96,89 +96,106 @@
         height: 283px; */
         top: -25px;
     }
+}
 
-    @media (max-width: 1000px) {
-        .crafts__inner_text {
-            max-width: 348px;
-            bottom: 70px;
-            left: 50px;
-            font-size: 16px;
-        }
+@media (max-width: 1000px) {
+    .crafts__inner_text {
+        max-width: 348px;
+        bottom: 70px;
+        left: 50px;
+        font-size: 16px;
+    }
 
-        .crafts__inner_title {
-            font-size: 40px;
-            /* font-weight: 500; */
-            padding-top: 70px;
-        }
+    .crafts__inner_title {
+        font-size: 40px;
+        /* font-weight: 500; */
+        padding-top: 70px;
+    }
 
-        .crafts__decor {
-            bottom: 15px;
-            max-width: 150px;
-        }
+    .crafts__decor {
+        bottom: 15px;
+        max-width: 150px;
+    }
 
-        /* .crafts__button {
+    /* .crafts__button {
             bottom: 115px;
         } */
 
-        .crafts__wrapper {
-            height: 450px;
-        }
+    .crafts__wrapper {
+        height: 450px;
+    }
+}
+
+@media (max-width: 768px) {
+    .crafts__of_india {
+        margin-bottom: 130px;
     }
 
-    @media (max-width: 768px) {
-        .crafts__wrapper {
-            height: 384px;
-            margin-top: 25px;
-        }
+    .crafts__wrapper {
+        height: 384px;
+        margin-top: 25px;
+    }
 
-        .crafts__inner_text,
-        .crafts__dec {
-            display: none;
-        }
+    .crafts__inner_text,
+    .crafts__dec {
+        display: none;
+    }
 
-        .crafts__image {
-            /* height: 440px; */
-            width: 90%;
-            flex-direction: row;
-        }
+    .crafts__image {
+        /* height: 440px; */
+        width: 90%;
+        flex-direction: row;
+    }
 
-        .craft__image {
-            /* left: 0; */
-            top: 20px;
-            /* object-position: 50% 50%;
+    .craft__image {
+        /* left: 0; */
+        top: 20px;
+        /* object-position: 50% 50%;
             object-fit: cover; */
-        }
-
-        .craft__img_dec {
-            left: -20px;
-            top: -3px;
-            /* max-width: 388px; */
-            /* height: 243px; */
-        }
-
-        .crafts__inner_title {
-            font-size: 50px;
-            padding-top: 25px;
-            transform: rotate(0deg);
-            position: absolute;
-            top: -160px;
-            white-space: nowrap;
-        }
-
-        .crafts__inner {
-            left: 24px;
-            bottom: -100px;
-        }
-
-        .crafts__button {
-            right: 0;
-            bottom: 0;
-        }
     }
 
-    @media (max-width: 480px) {
-        .crafts__inner_title {
-            font-size: 30px;
-        }
+    .craft__img_dec {
+        left: -20px;
+        top: -3px;
+        /* max-width: 388px; */
+        /* height: 243px; */
     }
+
+    .crafts__inner_title {
+        font-size: 50px;
+        padding-top: 25px;
+        transform: rotate(0deg);
+        position: absolute;
+        top: -160px;
+        white-space: nowrap;
+    }
+
+    .crafts__inner {
+        left: 24px;
+        bottom: -100px;
+    }
+
+    .crafts__button {
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .crafts__inner_title {
+        font-size: 30px;
+    }
+
+    .crafts__of_india {
+        margin-bottom: 100px;
+    }
+
+    .crafts__wrapper {
+        height: 300px;
+    }
+
+    /* .crafts__image {
+        height: 300px;
+    } */
+
 }

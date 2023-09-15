@@ -1,14 +1,19 @@
 /*фикс ширина у маленьких картинок*/
 .anita__dongre_inner {
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 30px;
+    /* justify-content: space-between;
+    padding-bottom: 30px; */
 }
 
 .ready__to_ship,
 .december {
     text-align: center;
     position: relative;
+}
+
+.ready__to_ship p,
+.december p {
+    line-height: 25px;
 }
 
 .designer__name_name {
@@ -19,7 +24,7 @@
     color: rgba(211, 145, 89, 0.25);
     text-align: center;
     font-size: 70px;
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 
 .main__img {
@@ -46,14 +51,15 @@
 
 .anita__dongre_title {
     text-align: center;
-    font-size: 70px;
-    font-weight: 600;
+    font-size: 65px;
+    /* font-weight: 600; */
+    border-bottom: 5px solid #5D3617;
 }
 
-.anita__dongre_text {
+/* .anita__dongre_text {
     border-top: 5px solid #5D3617;
     padding-top: 10px;
-}
+} */
 
 .zoom__photo {
     width: 100%;
@@ -94,7 +100,7 @@
     .anita__dongre_inner {
         display: block;
         position: relative;
-        margin-top: 150px;
+        /* margin-top: 150px; */
     }
 
     .designer__name {
@@ -115,9 +121,9 @@
 }
 
 @media (max-width: 480px) {
-    .anita__dongre_inner {
-        margin-top: 150px;
-    }
+    /* .anita__dongre_inner {
+        margin-top: 100px;
+    } */
 
     .designer__name {
         top: -60px;
@@ -130,4 +136,10 @@
     .anita__dongre_text {
         font-size: 16px;
     }
+}
+
+@media (max-width: 420px) {
+    /* .anita__dongre_inner {
+        margin-top: ;
+    } */
 }
