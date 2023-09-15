@@ -167,7 +167,7 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: #693621;
+    background-color: var(--brown);
     cursor: pointer;
 }
 

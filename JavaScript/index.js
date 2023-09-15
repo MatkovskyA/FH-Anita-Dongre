@@ -38,7 +38,7 @@ function changeItem() {
 }
 
 function rechangeItem() {
-    let weddingImageStyle = document.querySelector('.wedding__image').style.left = "0px";
+    let weddingImageStyle = document.querySelector('.wedding__image').style.left = "-40px";
     let weddingImageWeight = document.querySelector('.wedding__inner_title').style.width = "460px";
     return weddingImageStyle, weddingImageWeight
 }

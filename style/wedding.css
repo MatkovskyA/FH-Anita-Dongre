@@ -3,14 +3,17 @@
     justify-content: space-between;
     overflow: hidden;
     margin-bottom: 50px;
+    padding: 105px 0 65px;
+}
+
+.wedding__inner {
+    margin-left: 20px;
 }
 
 .wedding__inner_title {
-    color: #5D3617;
+    color: var(--brown);
     font-size: 70px;
-    font-weight: 600;
-    padding-left: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     max-width: 450px;
     min-width: 260px;
     transition-duration: 1s;
@@ -18,9 +21,9 @@
 }
 
 .wedding__inner_text {
-    padding-left: 20px;
     padding-bottom: 151px;
     height: 48px;
+    max-width: 320px;
 }
 
 .wedding__inner_button {
@@ -33,6 +36,7 @@
     display: flex;
     margin-left: 220px;
     transition-duration: 1s;
+    cursor: pointer;
 }
 
 .wedding__decor {
@@ -57,6 +61,11 @@
 @media (max-width: 1199px) {
     .wedding__img1 {
         height: 100%;
+    }
+
+    .wedding__wrapper {
+        margin-bottom: 50px;
+        padding: 75px 0 35px;
     }
 
     .wedding__inner_text {
@@ -88,11 +97,6 @@
         position: relative;
     }
 
-    .wedding__image {
-        min-height: 310px;
-        margin-left: 10px;
-    }
-
     .wedding__inner_text {
         display: none;
     }
@@ -108,10 +112,6 @@
     .wedding__inner_title {
         font-size: 50px;
         font-weight: 600;
-        padding-left: 20px;
-        padding-bottom: 20px;
-        max-width: 100%;
-        min-width: 360px;
         transition-duration: 1s;
     }
 

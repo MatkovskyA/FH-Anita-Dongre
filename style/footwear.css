@@ -16,7 +16,7 @@
 .footwear__dots {
     position: relative;
     left: -58px;
-    top: 250px;
+    top: 270px;
 }
 
 .dots {
@@ -33,7 +33,7 @@
 .footwear__inner_text {
     position: absolute;
     left: -200px;
-    top: -220px;
+    top: -230px;
     text-align: center;
 }
 
@@ -139,7 +139,6 @@
     }
 
     .inner__text_text {
-
         text-align: left;
     }
 
