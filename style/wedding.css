@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     overflow: hidden;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     padding: 105px 0 65px;
 }
 
