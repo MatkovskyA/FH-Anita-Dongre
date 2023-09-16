@@ -21,13 +21,13 @@
     padding-right: 40px;
 }
 
-.menswear__inner_title {
+.menswear__inner h2 {
     font-size: 90px;
     margin-top: 50px;
     margin-bottom: 83px;
 }
 
-.menswear__inner_text {
+.menswear__inner p {
     color: var(--pBlack);
     font-weight: 590;
     margin-bottom: 92px;
@@ -78,7 +78,7 @@
 }
 
 @media (max-width: 1199px) {
-    .menswear__inner_title {
+    .menswear__inner h2 {
         font-size: 60px;
     }
 
@@ -89,7 +89,7 @@
 }
 
 @media (max-width: 1000px) {
-    .menswear__inner_text {
+    .menswear__inner p {
         display: none;
     }
 
@@ -105,7 +105,7 @@
         left: 285px;
     }
 
-    .menswear__inner_title {
+    .menswear__inner h2 {
         margin-top: 30px;
     }
 }
@@ -113,7 +113,7 @@
 @media (max-width: 768px) {
 
     .menswear__decor,
-    .menswear__inner_text {
+    .menswear__inner p {
         display: none;
     }
 
@@ -131,7 +131,7 @@
         position: relative;
     }
 
-    .menswear__inner_title {
+    .menswear__inner h2 {
         margin-left: 15px;
         font-size: 40px;
         position: absolute;
@@ -161,7 +161,7 @@
 }
 
 @media (max-width: 480px) {
-    .menswear__inner_title {
+    .menswear__inner h2 {
         margin-top: 0;
     }
 
